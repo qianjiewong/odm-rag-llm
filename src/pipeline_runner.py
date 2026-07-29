@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import uuid
 from pathlib import Path
 
 import pandas as pd
@@ -90,6 +91,15 @@ def build_runtime_chroma_collection(chunk_df: pd.DataFrame, model):
     chroma_db/ collection used to produce the reported benchmark results,
     so that a deployed demo always reflects the current state of the web
     rather than the evidence snapshot the evaluation was run against.
+
+    Chroma's in-memory client (chromadb.Client()) is cached internally per
+    process by its Settings signature, so calling it again within the same
+    running app does NOT return a fresh client — it returns the same one,
+    complete with any collections created by earlier calls. A fixed
+    collection name would therefore collide ("Collection already exists")
+    on the second and every subsequent run within the same session. Giving
+    each call a unique name avoids this without needing to track or delete
+    previous collections.
     """
     if chunk_df.empty:
         return None
@@ -97,10 +107,9 @@ def build_runtime_chroma_collection(chunk_df: pd.DataFrame, model):
     texts = prepare_chunk_texts(chunk_df)
     embeddings = generate_embeddings(model=model, texts=texts, show_progress_bar=False)
 
-    # In-memory client (no path=...) -> nothing is written to disk and nothing
-    # persists between calls. A fresh collection per call keeps runs isolated.
     client = chromadb.Client(Settings(anonymized_telemetry=False))
-    collection = client.create_collection(name=RUNTIME_COLLECTION_NAME)
+    unique_name = f"{RUNTIME_COLLECTION_NAME}_{uuid.uuid4().hex}"
+    collection = client.create_collection(name=unique_name)
 
     ids, documents, metadatas, embedding_list = build_chroma_records(chunk_df, embeddings)
     collection.add(
