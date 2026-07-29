@@ -54,9 +54,9 @@ with st.expander("How it works"):
     st.markdown(
         """
 1. Select a country and one ODM policy or impact question.  
-2. The app calls the same main question-by-question pipeline used by the evaluation system.  
-3. The pipeline retrieves top-k evidence from the prepared evidence base.  
-4. The LLM generates a grounded justification from those retrieved chunks.  
+2. The app calls the same core pipeline used to produce the reported evaluation results.  
+3. The pipeline runs a fresh, live evidence retrieval: query generation, web search, document download, extraction, chunking, embedding, and reranking.  
+4. The LLM generates a grounded justification from those newly retrieved chunks.  
 5. The result is shown in the UI and saved to history for later review.
 """
     )
@@ -184,13 +184,13 @@ with tab1:
 
     st.info(f"Selected question: {selected_question_text}")
 
-    if selected_country not in evaluated_countries:
-        st.info(
-            "This country is outside the frozen evaluation scope. "
-            "The system will first check the prepared evidence base. "
-            "If coverage is insufficient, it will dynamically run the same main pipeline steps "
-            "from query generation through answer generation for this question."
-        )
+    # if selected_country not in evaluated_countries:
+    #     st.info(
+    #         "This country was not part of the formal 90-case benchmark evaluation "
+    #         "(limited to six countries for controlled testing). The same live "
+    #         "retrieval-and-generation pipeline is used regardless, so results here "
+    #         "are not directly comparable to the reported evaluation metrics."
+    #     )
 
     if st.button("Run question"):
         progress_placeholder = st.empty()
