@@ -1,0 +1,7 @@
+country,search_language,search_language_name,local_country_name,fallback_languages
+France,fr,French,France,en
+Estonia,et,Estonian,Eesti,en
+Germany,de,German,Deutschland,en
+Austria,de,German,Österreich,en
+Belgium,nl,Dutch,België,"fr,en"
+Bulgaria,bg,Bulgarian,България,en

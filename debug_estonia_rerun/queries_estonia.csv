@@ -1,0 +1,316 @@
+country,question_id,dimension,question,query_no,query,search_language
+Estonia,I1,Impact,"Do you have a definition of open data reuse in your country?
+ 
+For Explanation:
+* If yes, please specify it.",1,Avaliku teabe seadus taaskasutus definitsioon Eesti riigiteataja,Estonian
+Estonia,I1,Impact,"Do you have a definition of open data reuse in your country?
+ 
+For Explanation:
+* If yes, please specify it.",2,avaliku sektori teabe taaskasutuse määratlus Eesti õigusaktid,Estonian
+Estonia,I1,Impact,"Do you have a definition of open data reuse in your country?
+ 
+For Explanation:
+* If yes, please specify it.",3,open data reuse Eesti ametlik määratlus avaliku teabe seadus,Estonian
+Estonia,I1,Impact,"Do you have a definition of open data reuse in your country?
+ 
+For Explanation:
+* If yes, please specify it.",4,avaliku teabe taaskasutus poliitika ja mõju Eesti ministeerium,Estonian
+Estonia,I1,Impact,"Do you have a definition of open data reuse in your country?
+ 
+For Explanation:
+* If yes, please specify it.",5,Public Sector Information reuse definition Estonia official documents,Estonian
+Estonia,I10,Impact,"Have any public bodies in your country developed any systematic way of gathering reuse cases?
+
+For Explanation:
+* If yes, please provide a brief explanation of the process: How does the gathering happen?",1,Eesti avaliku sektori avaandmete taaskasutuse näited ja kogumine,Estonian
+Estonia,I10,Impact,"Have any public bodies in your country developed any systematic way of gathering reuse cases?
+
+For Explanation:
+* If yes, please provide a brief explanation of the process: How does the gathering happen?",2,Eesti riigi avaandmete taaskasutuse juhtumite süsteemne kogumine,Estonian
+Estonia,I10,Impact,"Have any public bodies in your country developed any systematic way of gathering reuse cases?
+
+For Explanation:
+* If yes, please provide a brief explanation of the process: How does the gathering happen?",3,Estonia public sector information reuse case studies report,Estonian
+Estonia,I10,Impact,"Have any public bodies in your country developed any systematic way of gathering reuse cases?
+
+For Explanation:
+* If yes, please provide a brief explanation of the process: How does the gathering happen?",4,Eesti avaandmete taaskasutuse strateegia ja mõjurekordi raport,Estonian
+Estonia,I10,Impact,"Have any public bodies in your country developed any systematic way of gathering reuse cases?
+
+For Explanation:
+* If yes, please provide a brief explanation of the process: How does the gathering happen?",5,Eesti ministeeriumite ja ametite avaliku teabe taaskasutuse näidised,Estonian
+Estonia,I12,Impact,"Is any data on the impact created by open data on governmental challenges (e.g. efficiency, effectiveness, transparency, decision-making capacity) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",1,Eesti avaandmete mõju valitsuse efektiivsusele raport,Estonian
+Estonia,I12,Impact,"Is any data on the impact created by open data on governmental challenges (e.g. efficiency, effectiveness, transparency, decision-making capacity) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",2,avaandmete taaskasutuse mõju avaliku sektori otsustele Eesti,Estonian
+Estonia,I12,Impact,"Is any data on the impact created by open data on governmental challenges (e.g. efficiency, effectiveness, transparency, decision-making capacity) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",3,avaliku sektori andmete taaskasutuse mõju hindamine Eesti valitsus,Estonian
+Estonia,I12,Impact,"Is any data on the impact created by open data on governmental challenges (e.g. efficiency, effectiveness, transparency, decision-making capacity) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",4,Eesti valitsuse avaandmete strateegia mõjuaruanne efektiivsus,Estonian
+Estonia,I12,Impact,"Is any data on the impact created by open data on governmental challenges (e.g. efficiency, effectiveness, transparency, decision-making capacity) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",5,Estonia open data impact assessment government transparency,Estonian
+Estonia,I17,Impact,"Is any data on the impact created by open data on social challenges (e.g. inequality, healthcare, education) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",1,Eesti avaandmete sotsiaalne mõju raport site:riigiteataja.ee,Estonian
+Estonia,I17,Impact,"Is any data on the impact created by open data on social challenges (e.g. inequality, healthcare, education) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",2,avaandmete mõju hindamine Eesti sotsiaalvaldkond tervishoid haridus,Estonian
+Estonia,I17,Impact,"Is any data on the impact created by open data on social challenges (e.g. inequality, healthcare, education) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",3,Estonia open data social impact assessment report,Estonian
+Estonia,I17,Impact,"Is any data on the impact created by open data on social challenges (e.g. inequality, healthcare, education) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",4,Eesti avalike andmete taaskasutuse sotsiaalsed tulemused uuring,Estonian
+Estonia,I17,Impact,"Is any data on the impact created by open data on social challenges (e.g. inequality, healthcare, education) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.",5,ministeeriumide avalikud raportid avaandmete sotsiaalne mõju Eesti,Estonian
+Estonia,I2,Impact,"Are there any processes in place to monitor the level of reuse of your country's open data?
+ 
+For Explanation:
+* If yes, please (1) briefly describe these processes and (2) provide the URLs to support the answer.",1,Eesti avaandmete taaskasutuse seire metoodika dokument,Estonian
+Estonia,I2,Impact,"Are there any processes in place to monitor the level of reuse of your country's open data?
+ 
+For Explanation:
+* If yes, please (1) briefly describe these processes and (2) provide the URLs to support the answer.",2,Eesti riiklik avaandmete kord aastaaruanne taaskasutuse mõõtmine,Estonian
+Estonia,I2,Impact,"Are there any processes in place to monitor the level of reuse of your country's open data?
+ 
+For Explanation:
+* If yes, please (1) briefly describe these processes and (2) provide the URLs to support the answer.",3,avaandmete taaskasutuse indikaatorid Eesti valitsus,Estonian
+Estonia,I2,Impact,"Are there any processes in place to monitor the level of reuse of your country's open data?
+ 
+For Explanation:
+* If yes, please (1) briefly describe these processes and (2) provide the URLs to support the answer.",4,Estonia open data reuse monitoring report,Estonian
+Estonia,I2,Impact,"Are there any processes in place to monitor the level of reuse of your country's open data?
+ 
+For Explanation:
+* If yes, please (1) briefly describe these processes and (2) provide the URLs to support the answer.",5,Eesti avaliku sektori info taaskasutuse seire ja analüüs,Estonian
+Estonia,I27,Impact,"Is any data on the economic impact (e.g. GDP, employment, productivity, innovation,  new businesses created etc.) of open data available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please specify what kind of data source proves this impact and provide the URLs to this data.",1,Eesti avaandmete majanduslik mõju raport,Estonian
+Estonia,I27,Impact,"Is any data on the economic impact (e.g. GDP, employment, productivity, innovation,  new businesses created etc.) of open data available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please specify what kind of data source proves this impact and provide the URLs to this data.",2,avaandmete taaskasutuse mõju Eesti majandusele uuring,Estonian
+Estonia,I27,Impact,"Is any data on the economic impact (e.g. GDP, employment, productivity, innovation,  new businesses created etc.) of open data available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please specify what kind of data source proves this impact and provide the URLs to this data.",3,Eesti avaliku teabe kord majanduslik hindamine impact assessment,Estonian
+Estonia,I27,Impact,"Is any data on the economic impact (e.g. GDP, employment, productivity, innovation,  new businesses created etc.) of open data available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please specify what kind of data source proves this impact and provide the URLs to this data.",4,avaandmed innovatsioon ja ettevõtlus Eesti ametlik raport,Estonian
+Estonia,I27,Impact,"Is any data on the economic impact (e.g. GDP, employment, productivity, innovation,  new businesses created etc.) of open data available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please specify what kind of data source proves this impact and provide the URLs to this data.",5,Eesti ministeerium avaandmete majanduslik väärtus strateegia,Estonian
+Estonia,I9,Impact,"Have any public bodies in your country launched or performed any activities in the past year to better understand reusers' needs in order to further stimulate the reuse of open data?
+
+For Explanation:
+* If yes, which of the following activities have been performed? Please describe how the activity has helped you better stimulate reuse.
+* Multiple answers are possible.",1,Eesti avatud andmed taaskasutajate vajadused analüüs 2023 ametlik raport,Estonian
+Estonia,I9,Impact,"Have any public bodies in your country launched or performed any activities in the past year to better understand reusers' needs in order to further stimulate the reuse of open data?
+
+For Explanation:
+* If yes, which of the following activities have been performed? Please describe how the activity has helped you better stimulate reuse.
+* Multiple answers are possible.",2,Eesti avaliku sektori andmete taaskasutuse toetamine vajaduste kaardistamine,Estonian
+Estonia,I9,Impact,"Have any public bodies in your country launched or performed any activities in the past year to better understand reusers' needs in order to further stimulate the reuse of open data?
+
+For Explanation:
+* If yes, which of the following activities have been performed? Please describe how the activity has helped you better stimulate reuse.
+* Multiple answers are possible.",3,Eesti ministeeriumide tegevused avatud andmete kasutajate kaasamine 2023,Estonian
+Estonia,I9,Impact,"Have any public bodies in your country launched or performed any activities in the past year to better understand reusers' needs in order to further stimulate the reuse of open data?
+
+For Explanation:
+* If yes, which of the following activities have been performed? Please describe how the activity has helped you better stimulate reuse.
+* Multiple answers are possible.",4,Estonia open data reuse user needs assessment official report,Estonian
+Estonia,I9,Impact,"Have any public bodies in your country launched or performed any activities in the past year to better understand reusers' needs in order to further stimulate the reuse of open data?
+
+For Explanation:
+* If yes, which of the following activities have been performed? Please describe how the activity has helped you better stimulate reuse.
+* Multiple answers are possible.",5,avaliku sektori avatud andmete taaskasutuse stimuleerimine Eesti strateegia,Estonian
+Estonia,P1,Policy,"Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition of the Open Data Directive?
+
+For Explanation:
+* If yes, please provide (1) the URL and (2) title of the policy document and (3) briefly describe.
+* If ‘other’, please provide (1) a brief explanation to support your answer choice and (2) provide the URL and indicate the policy section which explicitly references open data.",1,Eesti riiklik avatud andmete poliitika seadus direktiivi implementation,Estonian
+Estonia,P1,Policy,"Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition of the Open Data Directive?
+
+For Explanation:
+* If yes, please provide (1) the URL and (2) title of the policy document and (3) briefly describe.
+* If ‘other’, please provide (1) a brief explanation to support your answer choice and (2) provide the URL and indicate the policy section which explicitly references open data.",2,Eesti avatud andmete direktiiv transpositsioon õigusaktid,Estonian
+Estonia,P1,Policy,"Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition of the Open Data Directive?
+
+For Explanation:
+* If yes, please provide (1) the URL and (2) title of the policy document and (3) briefly describe.
+* If ‘other’, please provide (1) a brief explanation to support your answer choice and (2) provide the URL and indicate the policy section which explicitly references open data.",3,Eesti avaliku sektori avatud andmete strateegia ametlik dokument,Estonian
+Estonia,P1,Policy,"Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition of the Open Data Directive?
+
+For Explanation:
+* If yes, please provide (1) the URL and (2) title of the policy document and (3) briefly describe.
+* If ‘other’, please provide (1) a brief explanation to support your answer choice and (2) provide the URL and indicate the policy section which explicitly references open data.",4,Estonia national open data policy legislation transposition Open Data Directive,Estonian
+Estonia,P1,Policy,"Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition of the Open Data Directive?
+
+For Explanation:
+* If yes, please provide (1) the URL and (2) title of the policy document and (3) briefly describe.
+* If ‘other’, please provide (1) a brief explanation to support your answer choice and (2) provide the URL and indicate the policy section which explicitly references open data.",5,Eesti avatud andmete seadus ja Euroopa Liidu direktiivi rakendamine,Estonian
+Estonia,P13,Policy,"Is there a governance structure in place that enables the participation and/or inclusion of various open data stakeholders? 
+
+For Explanation:
+*  If yes, please briefly describe the governance structure and its operating model",1,Eesti avatud andmete juhtimismudel valitsus struktuur,Estonian
+Estonia,P13,Policy,"Is there a governance structure in place that enables the participation and/or inclusion of various open data stakeholders? 
+
+For Explanation:
+*  If yes, please briefly describe the governance structure and its operating model",2,avatud andmete koordineerimine Eesti poliitika dokument,Estonian
+Estonia,P13,Policy,"Is there a governance structure in place that enables the participation and/or inclusion of various open data stakeholders? 
+
+For Explanation:
+*  If yes, please briefly describe the governance structure and its operating model",3,Estonia open data governance ministry report,Estonian
+Estonia,P13,Policy,"Is there a governance structure in place that enables the participation and/or inclusion of various open data stakeholders? 
+
+For Explanation:
+*  If yes, please briefly describe the governance structure and its operating model",4,Eesti avaliku sektori andmete kordamise strateegia juhtimisgrupp,Estonian
+Estonia,P13,Policy,"Is there a governance structure in place that enables the participation and/or inclusion of various open data stakeholders? 
+
+For Explanation:
+*  If yes, please briefly describe the governance structure and its operating model",5,avatud andmete sidusrühmade kaasamine Eesti õigusaktid,Estonian
+Estonia,P16,Policy,"To what degree do local/regional public bodies conduct open data initiatives? 
+
+For Explanation:
+* If not applicable, please explain why.",1,Eesti kohalike omavalitsuste avatud andmete algatused ametlik aruanne,Estonian
+Estonia,P16,Policy,"To what degree do local/regional public bodies conduct open data initiatives? 
+
+For Explanation:
+* If not applicable, please explain why.",2,avatud andmed kohaliku omavalitsuse struktuur ja rakendamine Eestis,Estonian
+Estonia,P16,Policy,"To what degree do local/regional public bodies conduct open data initiatives? 
+
+For Explanation:
+* If not applicable, please explain why.",3,Eesti avatud andmete strateegia kohaliku ja regionaalse tasandi avalik sektor,Estonian
+Estonia,P16,Policy,"To what degree do local/regional public bodies conduct open data initiatives? 
+
+For Explanation:
+* If not applicable, please explain why.",4,kohalike omavalitsuste avatud andmete poliitika ja mõju analüüs Eesti,Estonian
+Estonia,P16,Policy,"To what degree do local/regional public bodies conduct open data initiatives? 
+
+For Explanation:
+* If not applicable, please explain why.",5,Estonia open data initiatives public regional authorities official report,Estonian
+Estonia,P2,Policy,"Is there a national open data strategy in your country?
+
+For Explanation:
+* If yes, please provide (1) the URL to the strategy and (2) describe the main highlights.  
+* If 'not applicable', please provide (1) a brief explanation to support your answer choice and provide (2) the URL and indicate the policy section which explicitly references objectives, actions/measures, delivery timelines etc.",1,Eesti riiklik avaandmete strateegia dokument,Estonian
+Estonia,P2,Policy,"Is there a national open data strategy in your country?
+
+For Explanation:
+* If yes, please provide (1) the URL to the strategy and (2) describe the main highlights.  
+* If 'not applicable', please provide (1) a brief explanation to support your answer choice and provide (2) the URL and indicate the policy section which explicitly references objectives, actions/measures, delivery timelines etc.",2,Eesti avaliku sektori avaandmete poliitika raport,Estonian
+Estonia,P2,Policy,"Is there a national open data strategy in your country?
+
+For Explanation:
+* If yes, please provide (1) the URL to the strategy and (2) describe the main highlights.  
+* If 'not applicable', please provide (1) a brief explanation to support your answer choice and provide (2) the URL and indicate the policy section which explicitly references objectives, actions/measures, delivery timelines etc.",3,Estonia national open data strategy site:.ee,Estonian
+Estonia,P2,Policy,"Is there a national open data strategy in your country?
+
+For Explanation:
+* If yes, please provide (1) the URL to the strategy and (2) describe the main highlights.  
+* If 'not applicable', please provide (1) a brief explanation to support your answer choice and provide (2) the URL and indicate the policy section which explicitly references objectives, actions/measures, delivery timelines etc.",4,Eesti avaandmete kasutamise strateegia ja tegevuskava,Estonian
+Estonia,P2,Policy,"Is there a national open data strategy in your country?
+
+For Explanation:
+* If yes, please provide (1) the URL to the strategy and (2) describe the main highlights.  
+* If 'not applicable', please provide (1) a brief explanation to support your answer choice and provide (2) the URL and indicate the policy section which explicitly references objectives, actions/measures, delivery timelines etc.",5,Ministeeriumide avaandmete strateegia Eesti,Estonian
+Estonia,P22,Policy,"Do data publication plans exist at public body level?
+
+For Explanation:
+* If yes, please provide the URL and briefly highlight the key aspects covered.",1,Eesti avaliku sektori andmete avaldamise plaanid ametiasutuste jaoks,Estonian
+Estonia,P22,Policy,"Do data publication plans exist at public body level?
+
+For Explanation:
+* If yes, please provide the URL and briefly highlight the key aspects covered.",2,andmete avaldamise juhised ja strateegiad Eesti riigiasutustes,Estonian
+Estonia,P22,Policy,"Do data publication plans exist at public body level?
+
+For Explanation:
+* If yes, please provide the URL and briefly highlight the key aspects covered.",3,Eesti avaliku teabe avaldamise kohustused ja andmete avaldamise ajakava,Estonian
+Estonia,P22,Policy,"Do data publication plans exist at public body level?
+
+For Explanation:
+* If yes, please provide the URL and briefly highlight the key aspects covered.",4,Riigiasutuste andmete avaldamise korraldus ja poliitika Eesti ametlikud dokumendid,Estonian
+Estonia,P22,Policy,"Do data publication plans exist at public body level?
+
+For Explanation:
+* If yes, please provide the URL and briefly highlight the key aspects covered.",5,Estonia public sector data publication plans official government reports,Estonian
+Estonia,P24,Policy,"Are there processes to ensure that the open data policies/strategy previously mentioned are updated and revised as needed?
+
+For explanation:
+* If yes, please describe the process and any recent updates made to strategy/policy",1,avatud andmete poliitika uuendamine Eesti valitsus,Estonian
+Estonia,P24,Policy,"Are there processes to ensure that the open data policies/strategy previously mentioned are updated and revised as needed?
+
+For explanation:
+* If yes, please describe the process and any recent updates made to strategy/policy",2,Eesti riigiavaldise avatud andmete strateegia läbivaatamine ja täiendamine,Estonian
+Estonia,P24,Policy,"Are there processes to ensure that the open data policies/strategy previously mentioned are updated and revised as needed?
+
+For explanation:
+* If yes, please describe the process and any recent updates made to strategy/policy",3,kuidas Eesti uuendab ja revideerib avatud andmete strateegiaid,Estonian
+Estonia,P24,Policy,"Are there processes to ensure that the open data policies/strategy previously mentioned are updated and revised as needed?
+
+For explanation:
+* If yes, please describe the process and any recent updates made to strategy/policy",4,avatud andmete poliitika ja strateegia ametlik dokument revision Estonia,Estonian
+Estonia,P24,Policy,"Are there processes to ensure that the open data policies/strategy previously mentioned are updated and revised as needed?
+
+For explanation:
+* If yes, please describe the process and any recent updates made to strategy/policy",5,Eesti ministeeriumide raportid avatud andmete poliitika jälgimine ja uuendamine,Estonian
+Estonia,P3,Policy,"Is there an open data policy/strategy at regional or local level?
+
+For Explanation:
+* If yes, please (1) provide the URL and (2) title of the document(s) and (3) briefly describe.",1,Eesti kohalike omavalitsuste avatud andmete strateegia dokument,Estonian
+Estonia,P3,Policy,"Is there an open data policy/strategy at regional or local level?
+
+For Explanation:
+* If yes, please (1) provide the URL and (2) title of the document(s) and (3) briefly describe.",2,regionaalsed avatud andmete poliitikad Eesti kohaliku omavalitsuse tasemel,Estonian
+Estonia,P3,Policy,"Is there an open data policy/strategy at regional or local level?
+
+For Explanation:
+* If yes, please (1) provide the URL and (2) title of the document(s) and (3) briefly describe.",3,Eesti avatud andmete kasutamise seadus ja kohaliku tasandi juhendid,Estonian
+Estonia,P3,Policy,"Is there an open data policy/strategy at regional or local level?
+
+For Explanation:
+* If yes, please (1) provide the URL and (2) title of the document(s) and (3) briefly describe.",4,omavalitsuste avatud andmete avaldamise strateegia ja mõjuanalüüs Eesti,Estonian
+Estonia,P3,Policy,"Is there an open data policy/strategy at regional or local level?
+
+For Explanation:
+* If yes, please (1) provide the URL and (2) title of the document(s) and (3) briefly describe.",5,kohalikud omavalitsused avatud andmete poliitika ja aruanded Eesti,Estonian
+Estonia,P4,Policy,"Does the national strategy/policy include an action plan with measures to be implemented in the open data field?
+
+For Explanation:
+If yes, please briefly describe the main measures described by the action plan.",1,Eesti avatud andmete tegevuskava 2024,Estonian
+Estonia,P4,Policy,"Does the national strategy/policy include an action plan with measures to be implemented in the open data field?
+
+For Explanation:
+If yes, please briefly describe the main measures described by the action plan.",2,Eesti riiklik avatud andmete strateegia ja rakendusplaan,Estonian
+Estonia,P4,Policy,"Does the national strategy/policy include an action plan with measures to be implemented in the open data field?
+
+For Explanation:
+If yes, please briefly describe the main measures described by the action plan.",3,Estonia open data implementation plan government,Estonian
+Estonia,P4,Policy,"Does the national strategy/policy include an action plan with measures to be implemented in the open data field?
+
+For Explanation:
+If yes, please briefly describe the main measures described by the action plan.",4,avatud andmete poliitika ja tegevuste kava Eesti valitsus,Estonian
+Estonia,P4,Policy,"Does the national strategy/policy include an action plan with measures to be implemented in the open data field?
+
+For Explanation:
+If yes, please briefly describe the main measures described by the action plan.",5,Eesti avatavate andmete roadmap ja meetmete elluviimine,Estonian

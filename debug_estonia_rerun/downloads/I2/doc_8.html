@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html class="no-js " lang="en">
+<head><meta charset="utf-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/rocketlazyloadscript">(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+            <script type="text/rocketlazyloadscript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        functionality_storage: "denied",
+        personalization_storage: "denied",
+        security_storage: "granted",
+        wait_for_update: 2000,
+    });
+    gtag("set", "ads_data_redaction", true);
+    gtag("set", "url_passthrough", true);
+</script>
+        
+                <script type="text/rocketlazyloadscript">!function(){"use strict";if("undefined"==typeof Symbol)return!1;try{eval("class GTAP {}"),eval("var gtap = (x) => x+1")}catch(e){return!1}return!0}()&&(window.location.href="https://ega.ee/unsupported-browser.html");</script>
+        <script>
+        (function() {
+            var value = '; ' + document.cookie;
+            var parts = value.split('; high_contrast=');
+            var cookieValue = null;
+            if (parts.length === 2) {
+                cookieValue = parts.pop().split(';').shift();
+            }
+            if (cookieValue === 'true') {
+                document.documentElement.classList.add('high-contrast');
+            } else {
+                document.documentElement.classList.remove('high-contrast');
+            }
+        })();
+    </script>
+
+            <link rel="alternate" hreflang="en" href="https://ega.ee/project/implement-dga/" />
+<link rel="alternate" hreflang="x-default" href="https://ega.ee/project/implement-dga/" />
+
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Implement DGA &raquo; E-riigi Akadeemia</title>
+<link data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C400i%2C600%2C700%2C700i&#038;subset=cyrillic&#038;display=swap" rel="preload">
+<link href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C400i%2C600%2C700%2C700i&#038;subset=cyrillic&#038;display=swap" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
+<noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C400i%2C600%2C700%2C700i&#038;subset=cyrillic&#038;display=swap"></noscript>
+<meta name="description" content="The Data Governance Act (DGA) is a key pillar of the European Data Strategy, designed to increase the availability and reuse of data while ensuring high"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://ega.ee/project/implement-dga/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Implement DGA &raquo; E-riigi Akadeemia" />
+<meta property="og:description" content="The Data Governance Act (DGA) is a key pillar of the European Data Strategy, designed to increase the availability and reuse of data while ensuring high" />
+<meta property="og:url" content="https://ega.ee/project/implement-dga/" />
+<meta property="og:site_name" content="e-Governance Academy" />
+<meta property="article:publisher" content="https://www.facebook.com/eGovAcademy" />
+<meta property="og:updated_time" content="2026-06-30T12:59:05+00:00" />
+<meta property="og:image" content="https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-1024x574.jpeg" />
+<meta property="og:image:secure_url" content="https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-1024x574.jpeg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="574" />
+<meta property="og:image:alt" content="dga" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Implement DGA &raquo; E-riigi Akadeemia" />
+<meta name="twitter:description" content="The Data Governance Act (DGA) is a key pillar of the European Data Strategy, designed to increase the availability and reuse of data while ensuring high" />
+<meta name="twitter:site" content="@https://x.com/egovacademy" />
+<meta name="twitter:creator" content="@https://x.com/egovacademy" />
+<meta name="twitter:image" content="https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-1024x574.jpeg" />
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='global-css' href='https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/css/global.073a457d6285d324.css' media='all' />
+<meta name="generator" content="Site Kit by Google 1.183.0" /><!-- Start cookieyes banner --><script type="text/rocketlazyloadscript" id="cookieyes" data-rocket-type="text/javascript" data-rocket-src="https://cdn-cookieyes.com/client_data/70c8c5840f7183876e239b08/script.js" data-rocket-defer defer></script><!-- End cookieyes banner -->
+<!-- Google Tag Manager snippet added by Site Kit -->
+<script type="text/rocketlazyloadscript">
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-M8K6WHXH' );
+			
+</script>
+
+<!-- End Google Tag Manager snippet added by Site Kit -->
+<link rel="icon" href="https://ega.ee/wp-content/uploads/2024/12/android-chrome-512x512-1-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://ega.ee/wp-content/uploads/2024/12/android-chrome-512x512-1-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ega.ee/wp-content/uploads/2024/12/android-chrome-512x512-1-300x300.png" />
+<meta name="msapplication-TileImage" content="https://ega.ee/wp-content/uploads/2024/12/android-chrome-512x512-1-300x300.png" />
+
+    
+    
+    
+    
+    <style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<meta name="generator" content="WP Rocket 3.22.0.3" data-wpr-features="wpr_delay_js wpr_defer_js wpr_cdn wpr_preload_links wpr_desktop" /></head>
+<body class="wp-singular project-template-default single single-project postid-63689 wp-theme-e-riigi-akadeemia">
+            		<!-- Google Tag Manager (noscript) snippet added by Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8K6WHXH" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
+		
+        <div id="page">
+                    
+    
+    
+
+
+
+<div class="main">
+            <div class="main__header">        
+
+<header class="header">
+    <div class="h-container header__container">
+        <div class="header__main">
+            
+
+<div class="logo header__logo">
+            <a
+            href="https://ega.ee"
+            class="logo__content logo__link"
+            aria-label="E-riigi Akadeemia"        >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145 44" width="145" height="44" fill="none">
+        <path d="M21.817 43.983c-3.633 0-7.233-.924-10.393-2.655C4.377 37.479 0 30.068 0 22 0 11.63 7.064 2.79 17.17.487c.794-.184 1.673-.319 2.687-.403.473-.034.947-.067 1.42-.084h.557s.845.017 1.014.017c.322.017.609.033.913.067.355.034.625.067.896.1l.202.034c.39.05.727.118 1.048.169.22.05.44.084.66.134a21.978 21.978 0 0 1 16.68 17.244c.135.672.236 1.361.303 2.05l.034.303.068 1.26c0 .27.017.437.017.622 0 .269 0 .555-.017.823-.017.236-.085 1.16-.135 1.648H35.15l-.05.268c-.913 4.471-4.09 8.303-8.281 9.984a13.813 13.813 0 0 1-5.172 1.008 13.22 13.22 0 0 1-5.205-1.059c-3.244-1.378-5.746-3.983-7.08-7.327-.034-.101-.288-.807-.288-.807a13.538 13.538 0 0 1-.777-4.572c0-7.512 6.067-13.63 13.52-13.63 5.103 0 9.784 2.925 12.083 7.513h-5.56c-1.707-1.849-4.022-2.874-6.524-2.874-4.917 0-8.922 4.033-8.922 8.991 0 1.16.22 2.27.642 3.345a8.981 8.981 0 0 0 5.12 5.076l.22.084c1.014.336 1.96.504 2.94.504a9.106 9.106 0 0 0 3.296-.622c.203-.084.405-.168.608-.269l.27-.134.44-.252.254-.169a9.104 9.104 0 0 0 2.129-1.966l.135-.168a8.711 8.711 0 0 0 1.284-2.487l.153-.437h-8.771c-1.37-.202-2.265-1.227-2.265-2.471 0-1.26.896-2.286 2.13-2.454l17.66-.017-.068-.386C37.67 10.57 30.42 4.353 21.817 4.353c-9.65 0-17.49 7.916-17.49 17.647 0 9.731 7.84 17.647 17.49 17.647 7.318 0 13.875-4.622 16.41-11.512h4.546a21.837 21.837 0 0 1-6.405 10.252s-.575.504-.693.605l-2.214 1.63-2.028 1.143c-.033.017-.828.386-.828.386l-.422.185-1.048.404-1.318.42-.27.084a.834.834 0 0 0-.203.05l-.727.185c-.017 0-.203.034-.27.067l-1.37.236-1.419.15L22.41 44l-.591-.017Z" fill="#11D13A"/>
+        <path d="M99.608 6.096c5.982 0 10.562 2.487 13.232 7.042l-5.847 2.84c-1.521-2.622-3.82-4.067-7.115-4.067-4.259 0-7.96 3.462-7.96 10.017 0 6.554 3.786 10.017 8.45 10.017 2.501 0 4.749-.824 5.898-2.37v-4.202h-6.219v-5.008h12.894V32.18c-2.771 3.496-7.165 5.596-12.674 5.596-9.025 0-15.447-6.218-15.447-15.831.017-9.597 6.135-15.85 14.788-15.85ZM145 37.239h-7.47l-2.027-6.303h-11.222l-1.977 6.303h-7.47l10.732-30.622h8.703L145 37.239Zm-18.961-11.815h7.74l-3.87-12.236-3.87 12.236ZM81.66 24.096c.068-.723.135-1.462.135-2.219 0-9.008-5.441-15.832-14.517-15.832-9.075 0-14.516 6.824-14.516 15.832 0 .387.033.757.067 1.143h-.017c0 .168.034.32.051.47.017.203.017.404.034.606h.017c.862 8.336 6.658 13.664 14.635 13.664 5.982 0 10.562-2.488 13.232-7.042l-5.847-2.84c-1.538 2.621-3.82 4.067-7.132 4.067-3.751 0-6.996-2.74-7.723-7.85H81.66ZM67.262 11.86c3.684 0 6.252 2.538 7.114 6.757h-14.23c.863-4.219 3.431-6.757 7.116-6.757Z" fill="currentColor"/>
+    </svg>
+
+        </a>
+    </div>
+            <button type="button" class="header__back-button">
+                
+<svg class="icon" focusable="false">
+    <use href="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg#arrow-left"></use>
+</svg>
+                Back
+            </button>
+            <div class="header__controls">
+                                    <div class="header__search-container header__search-container--mobile  js-header-search-mobile">
+                        
+
+<a
+     href="#header-search-modal"        class="button button--secondary header__search-toggle button--icon" data-js="open-topbar">
+    <span class="button__inner">
+        
+<svg class="icon button__icon" focusable="false">
+    <use href="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg#search"></use>
+</svg>
+        <span class="button__text">Open search</span>
+            </span>
+</a>
+                                                <div class="modal   "
+    aria-modal="true"
+    role="dialog"
+    id="header-search-modal"
+    aria-labelledby="header-search-modal_label"
+    data-close-label="Close search"
+    data-hide-default-close=""
+                data-focusable-element="header-search-input"
+    >
+    <h2 id="header-search-modal_label" class="h3 modal__title h-visually-hidden">
+        Header search
+    </h2>
+    <div class="modal__content">
+                                    <form id="header-search" class="header__search-form" role="search" aria-label="Header search" action="https://ega.ee" method="get">
+                                <div class="header__search-inner">
+                                    
+
+<div class="textfield textfield--search header__search-input">
+    <div class="textfield__inner">
+                            <label
+                class="textfield__label  h-visually-hidden"
+                for="header-search-input"
+            >            </label>
+        
+                    <input
+                class="textfield__input"
+                type="search"
+                id="header-search-input"
+                name="s"
+                
+                placeholder="Search"
+                                required
+            >
+                    </div>
+            </div>
+                                    
+
+<button
+     type="submit"         class="button button--secondary header__search-submit button--icon">
+    <span class="button__inner">
+        
+<svg class="icon button__icon" focusable="false">
+    <use href="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg#search"></use>
+</svg>
+        <span class="button__text">Submit</span>
+            </span>
+</button>
+                                </div>
+                            </form>
+                        
+    </div>
+</div>
+                    </div>
+                                    <button
+        type="button"
+        class="header__toggle"
+        aria-label="Menu"
+        aria-expanded="false"
+    >
+        
+<svg class="icon header__toggle-icon header__toggle-icon--open" focusable="false">
+    <use href="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg#menu"></use>
+</svg>
+        
+<svg class="icon header__toggle-icon header__toggle-icon--close" focusable="false">
+    <use href="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg#close"></use>
+</svg>
+    </button>
+
+            </div>
+        </div>
+
+        <div class="header__inner" tabindex="-1">
+            <div class="header__search-container js-header-search-desktop"></div>
+            
+                            
+
+
+<nav class="header-navigation header__navigation" aria-label="Header menu">
+            <ul class="header-navigation__list">
+                                            <li class="header-navigation__item menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://ega.ee/services/" class="header-navigation__link header-navigation__link--main" target="_self">Services                                            </a>
+                                    </li>
+                                            <li class="header-navigation__item menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://ega.ee/projects/" class="header-navigation__link header-navigation__link--main" target="_self">Projects                                            </a>
+                                    </li>
+                                            <li class="header-navigation__item menu-item menu-item-type-post_type menu-item-object-page current_page_parent">
+                                        <a href="https://ega.ee/insights/" class="header-navigation__link header-navigation__link--main" target="_self">Insights                                            </a>
+                                    </li>
+                                            <li class="header-navigation__item menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://ega.ee/publications/" class="header-navigation__link header-navigation__link--main" target="_self">Publications                                            </a>
+                                    </li>
+                                            <li class="header-navigation__item menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://ega.ee/about-ega/" class="header-navigation__link header-navigation__link--main" target="_self">About us                                            </a>
+                                    </li>
+                                            <li class="header-navigation__item menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://ega.ee/contact/" class="header-navigation__link header-navigation__link--main" target="_self">Contact                                            </a>
+                                    </li>
+                    </ul>
+    </nav>
+                                        <a class="header__accessibility-link" href="#accessibility-modal" data-js="open-sidebar">
+                    <span class="header__accessibility-label">
+                        Accessibility
+                    </span>
+                    <span class="header__accessibility-icon"></span>
+                </a>
+                                <div class="modal   "
+    aria-modal="true"
+    role="dialog"
+    id="accessibility-modal"
+    aria-labelledby="accessibility-modal_label"
+    data-close-label="Close"
+    data-hide-default-close=""
+            aria-describedby="toggle-contrast"
+        >
+    <h2 id="accessibility-modal_label" class="h3 modal__title ">
+        Accessibility
+    </h2>
+    <div class="modal__content">
+                            <div class="header__modal-contrast">
+                        <div class="header__modal-contrast-title">
+                            Contrast
+                        </div>
+                        <div class="header__modal-contrast-text text">
+                            <p>On this website, it is possible to change the contrast of the content to make reading easier.</p>
+
+                        </div>
+                                                    <div class="header__modal-contrast-toggle">
+                                <input class="header__modal-contrast-input" id="toggle-contrast" name="contrast" type="checkbox" aria-label="">
+                                <label for="toggle-contrast" class="header__modal-contrast-toggle-left">
+                                    Strong contrast
+                                </label>
+                                <label for="toggle-contrast" class="header__modal-contrast-toggle-right">
+                                    Default
+                                </label>
+                            </div>
+                                            </div>
+                    <div class="header__modal-enhancement">
+                        <div class="header__modal-enhancement-title">
+                            Enhancing content
+                        </div>
+                        <div class="header__modal-enhancement-text text">
+                            <p>To enlarge the content, we recommend using the built-in functionality of the web browser: hold down the Ctrl key (Cmd key in OS X) and press the + or &#8211; key at the same time.</p>
+<p>Another convenient option is to use the mouse: hold down the Ctrl key while moving the mouse scroll wheel. You can return to normal size by pressing the Ctrl and 0 keys at the same time.</p>
+<p>All major operating systems include settings to increase the content displayed on the screen.</p>
+<p>In Windows 7, you can find a program called Magnifier if you click on the &#8220;Start&#8221; menu button at the bottom left, type Magnifier (the first few letters are enough) and press Enter. A small window will open in which everything is magnified. By default, the program tracks the position of the mouse cursor. In Windows XP, you can find Magnifier by going to Start &gt; All Programs &gt; Accessories &gt; Accessibility &gt; Magnifier.</p>
+<p>On Apple computers, to use zoom, navigate to: Apple menu &gt; System Preferences &gt; Accessibility (or Universal Access) &gt; Zoom.</p>
+
+                        </div>
+                    </div>
+                
+    </div>
+</div>
+                    </div>
+    </div>
+</header>
+    </div>
+                <main class="main__content">    
+                                    
+
+
+
+
+
+<div class="section     image-hero image-hero--scroll section--no-bottom-margin">
+            <div class="section__container">
+            <div class="section__container-inner">
+                                    <div class="h-container h-container--wide">
+        <div class="grid">
+            <div class="grid__col">
+                <div class="image-hero__inner">
+                                            <figure class="image image--cover image-hero__image" >
+                            <img
+        loading="eager"        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201600%20900%22%3E%3C%2Fsvg%3E"
+                    srcset="https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-1600x900.jpeg 1600w, https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-300x168.jpeg 300w, https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-160x90.jpeg 160w, https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-320x180.jpeg 320w, https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-640x360.jpeg 640w, https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-800x450.jpeg 800w, https://ega.ee/wp-content/uploads/2026/03/adobestock_755424685-3200x1800.jpeg 3200w"
+            sizes="(max-width: 679px) 93vw, (max-width: 999px) 92vw, (max-width: 1520px) 100vw, 1440px"
+                alt=""
+                        class="image__img "
+    >
+
+    
+        </figure>
+                                        <div class="h-container h-container--wide-inner">
+                        <div class="image-hero__content">
+                            <div class="h-container">
+                                <div class="grid">
+                                    <div class="grid__col grid__col--lg-2">
+                                        <div class="image-hero__content-inner">
+                                                                                            <h1 class="image-hero__title h1">
+                                                    Implement DGA
+                                                </h1>
+                                                                                                                                                                                                                                <div class="image-hero__scroll">
+                                                    <div class="image-hero__scroll-left">
+                                                        
+
+<button
+     type="button"         class="button button--quaternary image-hero__scroll-button button--icon">
+    <span class="button__inner">
+        
+<svg class="icon button__icon" focusable="false">
+    <use href="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg#arrow-down"></use>
+</svg>
+        <span class="button__text">Scroll down</span>
+            </span>
+</button>
+                                                    </div>
+                                                    <div class="image-hero__scroll-right">
+                                                                                                                    <span class="image-hero__scroll-label">
+                                                            Duration
+                                                        </span>
+                                                                                                                                                                            <span class="image-hero__scroll-value">
+                                                            February 2026 - January 2028
+                                                        </span>
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+            </div>
+        </div>
+    </div>
+                    
+
+
+
+<div class="section project-info">
+            <div class="section__container">
+            <div class="section__container-inner">
+                                    <div class="h-container">
+        <div class="grid grid--no-vertical-gutter">
+            <div class="grid__col grid__col--md-2">
+                <div class="text editor">
+                    <p><span style="font-weight: 400;">The European Union is working to build a strong data-driven economy in which data can be shared and reused safely across borders and sectors. Public sector data is one of the most valuable resources for innovation, research and policymaking. However, unlocking its full potential requires clear rules, trusted governance structures and the technical capacity to manage data securely.</span></p>
+<p><span style="font-weight: 400;">The Data Governance Act (DGA) is a key pillar of the European Data Strategy, designed to increase the availability and reuse of data while ensuring high standards of privacy, security and trust. </span></p>
+<p><span style="font-weight: 400;">The project supports the National Statistical Institutes of Croatia, Estonia, Germany and the Netherlands by reviewing legal frameworks, organisational structures and existing practices for data sharing to develop a practical framework for implementing Article 7 of the Data Governance Act, thereby enabling the secure reuse of protected public sector data.</span></p>
+<p><span style="font-weight: 400;">Through legal, organisational, technical, and communication guidance, the project will support the National Statistical Institutes in developing services that facilitate data reuse while ensuring compliance with EU data protection and security rules.</span></p>
+<p><b>Main outcomes of the project: </b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Analytical report on the DGA ecosystem and its implementation in beneficiary countries.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Structured, practical and adaptable reference framework outlining how to implement DGA.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Plans and content for the trainings for the National Statistical Institutes based on the reference framework and the analytical report. ​</span></li>
+</ul>
+<p><span style="font-weight: 400;">By strengthening governance structures and operational capacity for data reuse, the project contributes to the development of a trusted European data ecosystem. In the long term, it will help unlock the value of public sector data for innovation, research and policymaking while supporting cross-border cooperation within the Digital Single Market.</span></p>
+<p><span style="font-weight: 400;">The project is funded by the European Union via the Technical Support Instrument and implemented by the e-Governance Academy in cooperation with the European Commission.</span></p>
+
+                </div>
+            </div>
+            <div class="grid__col grid__col--md-2">
+                                    <div class="meta project-info__meta ">
+            <div class="meta__inner">
+                                                <div class="meta__section">
+                                                    <div class="meta__label">
+                                Country
+                            </div>
+                                                <div class="meta__items">
+                                                                                                <span class="meta__item">
+                                        Croatia
+                                    </span>
+                                                                                                                                <span class="meta__item">
+                                        Estonia
+                                    </span>
+                                                                                                                                <span class="meta__item">
+                                        Germany
+                                    </span>
+                                                                                                                                <span class="meta__item">
+                                        Netherlands
+                                    </span>
+                                                                                    </div>
+                    </div>
+                                                                <div class="meta__section">
+                                                    <div class="meta__label">
+                                Keywords
+                            </div>
+                                                <div class="meta__items">
+                                                                                                <span class="meta__item">
+                                        Capacity building
+                                    </span>
+                                                                                                                                <span class="meta__item">
+                                        Data governance
+                                    </span>
+                                                                                                                                <span class="meta__item">
+                                        Data management
+                                    </span>
+                                                                                                                                <span class="meta__item">
+                                        Digital skills
+                                    </span>
+                                                                                    </div>
+                    </div>
+                                                                <div class="meta__section">
+                                                    <div class="meta__label">
+                                Project manager
+                            </div>
+                                                <div class="meta__items">
+                                                                                                <a href="https://ega.ee/person/priit-vinkel/" class="meta__item">
+                                        Priit Vinkel, PhD
+                                    </a>
+                                                                                    </div>
+                    </div>
+                                                                <div class="meta__section">
+                                                    <div class="meta__label">
+                                Budget
+                            </div>
+                                                <div class="meta__items">
+                                                                                                <span class="meta__item">
+                                        1 200 000€
+                                    </span>
+                                                                                    </div>
+                    </div>
+                                                                <div class="meta__section">
+                                                    <div class="meta__label">
+                                Status
+                            </div>
+                                                <div class="meta__items">
+                                                                                                <span class="meta__item">
+                                        Ongoing
+                                    </span>
+                                                                                    </div>
+                    </div>
+                                    </div>
+                            <div class="meta__funded">
+                <div class="meta__funded-content">
+                                            <div class="meta__funded-label">
+                            Funded by
+                        </div>
+                                                                <div class="meta__funded-by">
+                            Funded by the European Union via the Technical Support Instrument, managed by the European Commission.
+                        </div>
+                                    </div>
+                                    <div class="meta__funded-image-container">
+                        <figure class="image  meta__funded-image" >
+                            <img
+        loading="lazy"        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="https://ega.ee/wp-content/uploads/2023/07/eu_funded_logo_en-1.jpg 1100w, https://ega.ee/wp-content/uploads/2023/07/eu_funded_logo_en-1-300x63.jpg 300w, https://ega.ee/wp-content/uploads/2023/07/eu_funded_logo_en-1-1024x215.jpg 1024w, https://ega.ee/wp-content/uploads/2023/07/eu_funded_logo_en-1-768x161.jpg 768w"
+            data-sizes="auto"
+                alt="European Union logo"
+                title="EU logo"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                    </div>
+                            </div>
+            </div>                            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+                    
+
+    
+    
+    
+
+<div class="section insight-cards-module">
+            <div class="section__container">
+            <div class="section__container-inner">
+                        <div class="h-container">        <h2 class="section__heading  h3">
+            Related insights
+        </h2>
+    </div>
+                        <div class="h-container">
+        <div class="insight-cards insight-cards-module__insight-cards  ">
+    <div class="grid insight-cards__grid">
+                                            <div class="grid__col grid__col--md-2">
+                                    <article class="card  insight-cards__card">
+            <div class="card__meta">
+                            <span class="card__type">Uncategorized</span>
+                                        <time class="card__date" datetime="2026-06-30T12:54:15+00:00">June 30, 2026</time>
+                    </div>
+        <div class="card__content text">
+        <h2 class="card__title h4">
+            <a href="https://ega.ee/scoping-missions-assess-dga/" class="card__link">                eGA&#8217;s scoping missions assess readiness for the Data Governance Act
+            </a>        </h2>
+            </div>
+                <div class="card__image-wrapper">
+            <figure class="image image--fluid card__image" >
+                            <img
+        loading="lazy"        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%20100%22%3E%3C%2Fsvg%3E"
+                    data-srcset="https://ega.ee/wp-content/uploads/2026/06/shared-image-2-e1782825324445-160x100.jpeg 160w, https://ega.ee/wp-content/uploads/2026/06/shared-image-2-e1782825324445-320x200.jpeg 320w, https://ega.ee/wp-content/uploads/2026/06/shared-image-2-e1782825324445-640x400.jpeg 640w, https://ega.ee/wp-content/uploads/2026/06/shared-image-2-e1782825324445-1280x800.jpeg 1280w"
+            data-sizes="auto"
+                alt=""
+                title="eGA&#8217;s team together with Croatia&#8217;s National Statistical Institute"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                    </div>
+    </article>
+                            </div>
+                                            <div class="grid__col grid__col--md-1">
+                                    <article class="card  insight-cards__card">
+            <div class="card__meta">
+                            <span class="card__type">News</span>
+                                        <time class="card__date" datetime="2026-05-05T07:48:56+00:00">May 5, 2026</time>
+                    </div>
+        <div class="card__content text">
+        <h2 class="card__title h4">
+            <a href="https://ega.ee/the-eu-supports-public-administration-reforms/" class="card__link">                The EU supports public administration reforms across eight Member States in collaboration with eGA 
+            </a>        </h2>
+            </div>
+                <div class="card__image-wrapper">
+            <figure class="image image--fluid card__image" >
+                            <img
+        loading="lazy"        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%20100%22%3E%3C%2Fsvg%3E"
+                    data-srcset="https://ega.ee/wp-content/uploads/2026/05/adobestock_93484030-160x100.jpeg 160w, https://ega.ee/wp-content/uploads/2026/05/adobestock_93484030-320x200.jpeg 320w, https://ega.ee/wp-content/uploads/2026/05/adobestock_93484030-640x400.jpeg 640w, https://ega.ee/wp-content/uploads/2026/05/adobestock_93484030-1280x800.jpeg 1280w, https://ega.ee/wp-content/uploads/2026/05/adobestock_93484030-2560x1600.jpeg 2560w"
+            data-sizes="auto"
+                alt=""
+                title="EU flags"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                    </div>
+    </article>
+                            </div>
+                                            <div class="grid__col grid__col--md-1">
+                                    <article class="card  insight-cards__card">
+            <div class="card__meta">
+                            <span class="card__type">News</span>
+                                        <time class="card__date" datetime="2026-03-23T08:12:38+00:00">March 23, 2026</time>
+                    </div>
+        <div class="card__content text">
+        <h2 class="card__title h4">
+            <a href="https://ega.ee/ega-supports-practical-implementation-data-governance-act-europe/" class="card__link">                eGA supports the practical implementation of the Data Governance Act in Europe
+            </a>        </h2>
+            </div>
+                <div class="card__image-wrapper">
+            <figure class="image image--fluid card__image" >
+                            <img
+        loading="lazy"        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%20100%22%3E%3C%2Fsvg%3E"
+                    data-srcset="https://ega.ee/wp-content/uploads/2026/03/a8427caf-c437-48ab-89a9-0f77531b4273-2-160x100.jpeg 160w, https://ega.ee/wp-content/uploads/2026/03/a8427caf-c437-48ab-89a9-0f77531b4273-2-320x200.jpeg 320w, https://ega.ee/wp-content/uploads/2026/03/a8427caf-c437-48ab-89a9-0f77531b4273-2-640x400.jpeg 640w, https://ega.ee/wp-content/uploads/2026/03/a8427caf-c437-48ab-89a9-0f77531b4273-2-1280x800.jpeg 1280w"
+            data-sizes="auto"
+                alt=""
+                title="Implement DGA kick-off event in Zagreb"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                    </div>
+    </article>
+                            </div>
+                    </div>
+
+</div>    </div>
+            </div>
+        </div>
+    </div>
+            
+</main>
+                <div class="main__footer">        
+<footer class="footer footer--with-navigation">
+    <div class="h-container">
+                    <div class="subscribe">
+    <div class="grid">
+        <div class="grid__col grid__col--md-2">
+            <div class="subscribe__content">
+                <h2 class="subscribe__title h2">Get digital transformation news straight to your inbox</h2>
+                <div class="subscribe__text">We only send letters when there's something important to talk about</div>
+                
+
+<a
+     href="#subscribe-modal"        class="button button--secondary subscribe__button" data-js="open-sidebar">
+    <span class="button__inner">
+                <span class="button__text">Subscribe now</span>
+            </span>
+</a>
+            </div>
+        </div>
+        <div class="grid__col grid__col--md-2 h-hidden-xs h-hidden-sm">
+            <svg width="604" height="302" viewBox="0 0 604 302" fill="none" xmlns="http://www.w3.org/2000/svg" class="subscribe__background">
+                <path d="M503.312 201.366C558.921 201.366 604 156.289 604 100.683C604 45.0773 558.921 0 503.312 0C447.703 0 402.624 45.0773 402.624 100.683C402.624 156.289 447.703 201.366 503.312 201.366Z" fill="url(#paint0_linear_0_1)"/>
+                <path d="M301.936 0C357.556 0 402.624 45.0817 402.624 100.683C402.624 156.284 357.54 201.366 301.936 201.366V0Z" fill="url(#paint1_linear_0_1)"/>
+                <path d="M201.232 0C256.852 0 301.92 45.0817 301.92 100.683C301.92 156.284 256.836 201.366 201.232 201.366V0Z" fill="url(#paint2_linear_0_1)"/>
+                <path d="M0 201.382C0 145.764 45.084 100.699 100.688 100.699C156.292 100.699 201.376 145.78 201.376 201.382H0Z" fill="url(#paint3_linear_0_1)"/>
+                <path d="M603.395 201.317C603.395 256.934 558.311 302 502.707 302C447.103 302 402.019 256.918 402.019 201.317H603.412H603.395Z" fill="url(#paint4_linear_0_1)"/>
+                <path d="M201.96 302C201.96 246.382 247.044 201.317 302.648 201.317C358.252 201.317 403.336 246.399 403.336 302H201.943H201.96Z" fill="url(#paint5_linear_0_1)"/>
+                <defs>
+                    <linearGradient id="paint0_linear_0_1" x1="557.114" y1="23.1821" x2="453.819" y2="172.036" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#87E79C00"/>
+                        <stop offset="1" stop-color="#87E79C"/>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_0_1" x1="373.839" y1="35.0653" x2="279.749" y2="170.623" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#87E79C00"/>
+                        <stop offset="1" stop-color="#87E79C"/>
+                    </linearGradient>
+                    <linearGradient id="paint2_linear_0_1" x1="273.136" y1="35.0653" x2="179.062" y2="170.623" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#87E79C00"/>
+                        <stop offset="1" stop-color="#87E79C"/>
+                    </linearGradient>
+                    <linearGradient id="paint3_linear_0_1" x1="35.0509" y1="129.482" x2="170.623" y2="223.58" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#87E79C00"/>
+                        <stop offset="1" stop-color="#87E79C"/>
+                    </linearGradient>
+                    <linearGradient id="paint4_linear_0_1" x1="568.345" y1="273.217" x2="432.772" y2="179.135" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#87E79C00"/>
+                        <stop offset="1" stop-color="#87E79C"/>
+                    </linearGradient>
+                    <linearGradient id="paint5_linear_0_1" x1="237.011" y1="230.1" x2="372.583" y2="324.198" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#87E79C00"/>
+                        <stop offset="1" stop-color="#87E79C"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </div>
+            <div class="modal  subscribe__modal "
+    aria-modal="true"
+    role="dialog"
+    id="subscribe-modal"
+    aria-labelledby="subscribe-modal_label"
+    data-close-label="Close"
+    data-hide-default-close=""
+            aria-describedby="subscribe-modal-description"
+        >
+    <h2 id="subscribe-modal_label" class="h3 modal__title ">
+        Join our newsletter
+    </h2>
+    <div class="modal__content">
+                <p id="subscribe-modal-description" class="subscribe__modal-description">
+            We will keep you up to date with digital transformation news and views as well as e-Governance Academy's activities and events.
+        </p>
+        <div class="newsletter subscribe__newsletter " >
+    <div class="newsletter__content">
+                    <form class="newsletter__form">
+                
+
+<div class="textfield newsletter__field newsletter__field--first-name">
+    <div class="textfield__inner">
+                            <label
+                class="textfield__label  "
+                for="first-name"
+            >First name            </label>
+        
+                    <input
+                class="textfield__input"
+                type="text"
+                id="first-name"
+                name="firstName"
+                
+                
+                                
+            >
+                    </div>
+            </div>
+                
+
+<div class="textfield newsletter__field newsletter__field--last-name">
+    <div class="textfield__inner">
+                            <label
+                class="textfield__label  "
+                for="last-name"
+            >Last name            </label>
+        
+                    <input
+                class="textfield__input"
+                type="text"
+                id="last-name"
+                name="lastName"
+                
+                
+                                
+            >
+                    </div>
+            </div>
+                
+
+<div class="textfield newsletter__field newsletter__field--email">
+    <div class="textfield__inner">
+                            <label
+                class="textfield__label  "
+                for="email-address"
+            >Email Address*            </label>
+        
+                    <input
+                class="textfield__input"
+                type="text"
+                id="email-address"
+                name="email"
+                
+                
+                                required
+            >
+                    </div>
+            </div>
+                                
+<div class="check
+     newsletter__field newsletter__field--agreement">
+    <input
+        type="checkbox"
+        id="agreement"
+        name="agreement"
+        value=""
+        class="check__input"
+                        required
+    >
+    <label for="agreement" class="check__label">
+        <span class="check__indicator">
+            
+<svg class="icon check__icon" focusable="false">
+    <use href="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg#check"></use>
+</svg>
+        </span>
+        <span class="check__text">I agree with eGA <a href="https://ega.ee/privacy-policy/">privacy policy</a></span>
+    </label>
+</div>
+                                                
+
+<button
+     type="submit"         class="button newsletter__form-submit">
+    <span class="button__inner">
+                <span class="button__text">Submit</span>
+                    <span class="spinner button__spinner" role="status" aria-live="polite" aria-label="Loading">
+    <svg class="spinner__circle" viewBox="25 25 50 50" aria-hidden="true" focusable="false">
+        <circle class="spinner__path" cx="50" cy="50" r="22" fill="none"></circle>
+    </svg>
+</span>
+            </span>
+</button>
+            </form>
+            <div class="newsletter__error">
+            </div>
+                        </div>
+</div>
+    
+    </div>
+</div>
+</div>
+                <h3 class="footer__row footer__title">
+            e-Governance Academy Foundation – eGA
+        </h3>
+        <div class="footer__row footer__nav">
+                            <div class="footer__nav-col">
+                                            <div class="footer__contact">
+                            <div class="footer__nav-header">General contact</div>
+                                                            <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ee.age@ofni</span></noscript><script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">var element = document.createElement('div'); element.innerHTML = '<n uers="znvygb:vasb@rtn.rr" pynff="sbbgre__ani-yvax">vasb@rtn.rr</n>'.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.currentScript.replaceWith(...element.childNodes);</script>
+                                                    </div>
+                                            <div class="footer__contact">
+                            <div class="footer__nav-header">Client relations & partnerships </div>
+                                                            <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ee.age@spihsrentrap</span></noscript><script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">var element = document.createElement('div'); element.innerHTML = '<n uers="znvygb:cnegarefuvcf@rtn.rr" pynff="sbbgre__ani-yvax">cnegarefuvcf@rtn.rr</n>'.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.currentScript.replaceWith(...element.childNodes);</script>
+                                                    </div>
+                                            <div class="footer__contact">
+                            <div class="footer__nav-header">Press inquiries</div>
+                                                            <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ee.age@noitacinummoc</span></noscript><script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">var element = document.createElement('div'); element.innerHTML = '<n uers="znvygb:pbzzhavpngvba@rtn.rr" pynff="sbbgre__ani-yvax">pbzzhavpngvba@rtn.rr</n>'.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.currentScript.replaceWith(...element.childNodes);</script>
+                                                    </div>
+                                            <div class="footer__contact">
+                            <div class="footer__nav-header">Address</div>
+                                                            <div class="footer__nav-link">Ahtri 6, 10151, Tallinn, Estonia</div>
+                                                    </div>
+                                    </div>
+                                        <div class="footer__nav-col h-hidden-md h-hidden-lg">
+                    
+
+<nav class="navigation navigation--vertical navigation--inverted footer__navigation footer__navigation--mobile">
+    </nav>
+                </div>
+                                        <div class="footer__nav-col h-hidden-xs h-hidden-sm">
+                    
+
+<nav class="navigation navigation--vertical navigation--inverted footer__navigation">
+    </nav>
+                </div>
+                                        <div class="footer__nav-col">
+                    <nav class="footer__social" aria-label="Find us on social media">
+                        <div class="footer__nav-header">Find us on social media</div>
+                        <ul class="footer__social-list">
+                                                            <li class="footer__social-item">
+                                    <a href="https://www.linkedin.com/company/e-governance-academy" target="_blank" class="footer__nav-link">LinkedIn</a>
+                                </li>
+                                                            <li class="footer__social-item">
+                                    <a href="https://twitter.com/egovacademy" target="_blank" class="footer__nav-link">x.com</a>
+                                </li>
+                                                            <li class="footer__social-item">
+                                    <a href="https://www.facebook.com/eGovAcademy" target="_blank" class="footer__nav-link">Facebook</a>
+                                </li>
+                                                            <li class="footer__social-item">
+                                    <a href="https://vimeo.com/user37573059" target="_blank" class="footer__nav-link">Vimeo</a>
+                                </li>
+                                                            <li class="footer__social-item">
+                                    <a href="https://www.youtube.com/user/eGovAcademy" target="_blank" class="footer__nav-link">Youtube</a>
+                                </li>
+                                                            <li class="footer__social-item">
+                                    <a href="https://ega.ee/digital-government-podcast" target="_blank" class="footer__nav-link">Podcast</a>
+                                </li>
+                                                    </ul>
+                    </nav>
+                </div>
+                    </div>
+                    <div class="footer__row footer__partners">
+                                    <div class="footer__partner">
+                        <figure class="image  footer__partner-image" >
+                            <img
+        loading="lazy"        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="https://ega.ee/wp-content/uploads/2024/11/ega-logo-short-greenicon.png 1080w, https://ega.ee/wp-content/uploads/2024/11/ega-logo-short-greenicon-300x125.png 300w, https://ega.ee/wp-content/uploads/2024/11/ega-logo-short-greenicon-1024x426.png 1024w, https://ega.ee/wp-content/uploads/2024/11/ega-logo-short-greenicon-768x319.png 768w"
+            data-sizes="auto"
+                alt="eGA logo"
+                title="ega-logo-short-greenicon"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                                                    <a class="footer__partner-link" href="https://ega.ee/" aria-title="ega-logo-short-greenicon" target="_blank"></a>
+                                            </div>
+                                    <div class="footer__partner">
+                        <figure class="image  footer__partner-image" >
+                            <img
+        loading="lazy"        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="https://ega.ee/wp-content/uploads/2022/03/logoegov-1.png"
+            data-sizes="auto"
+                alt="logoegov"
+                title="logoegov"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                                                    <a class="footer__partner-link" href="https://egovconference.ee/" aria-title="logoegov" target="_blank"></a>
+                                            </div>
+                                    <div class="footer__partner">
+                        <figure class="image  footer__partner-image" >
+                            <img
+        loading="lazy"        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="https://ega.ee/wp-content/uploads/2024/11/asset-5.png 316w, https://ega.ee/wp-content/uploads/2024/11/asset-5-300x90.png 300w"
+            data-sizes="auto"
+                alt="NCSI logo"
+                title="NCSI logo"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                                                    <a class="footer__partner-link" href="https://ncsi.ega.ee/" aria-title="NCSI logo" target="_blank"></a>
+                                            </div>
+                                    <div class="footer__partner">
+                        <figure class="image  footer__partner-image" >
+                            <img
+        loading="lazy"        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="https://ega.ee/wp-content/uploads/2025/04/TCDSS24_logo-alternative_white_RGB.svg"
+            data-sizes="auto"
+                alt="Tallinn Cyber Diplomacy Summer School logo white"
+                title="TCDSS24_logo-alternative_white_RGB"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                                                    <a class="footer__partner-link" href="https://cyberdiplomacy.ee/" aria-title="TCDSS24_logo-alternative_white_RGB" target="_blank"></a>
+                                            </div>
+                                    <div class="footer__partner">
+                        <figure class="image  footer__partner-image" >
+                            <img
+        loading="lazy"        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="https://ega.ee/wp-content/uploads/2025/08/knowcyber-default-logo-white-2.png 1081w, https://ega.ee/wp-content/uploads/2025/08/knowcyber-default-logo-white-2-300x163.png 300w, https://ega.ee/wp-content/uploads/2025/08/knowcyber-default-logo-white-2-1024x558.png 1024w, https://ega.ee/wp-content/uploads/2025/08/knowcyber-default-logo-white-2-768x418.png 768w"
+            data-sizes="auto"
+                alt="KonwCyber"
+                title="knowcyber-default-logo-white-2"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                                                    <a class="footer__partner-link" href="https://knowcyber.eu/" aria-title="knowcyber-default-logo-white-2" target="_blank"></a>
+                                            </div>
+                                    <div class="footer__partner">
+                        <figure class="image  footer__partner-image" >
+                            <img
+        loading="lazy"        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="https://ega.ee/wp-content/uploads/2025/04/bvcer_withoutqr-iso-9001_new.png 1191w, https://ega.ee/wp-content/uploads/2025/04/bvcer_withoutqr-iso-9001_new-300x110.png 300w, https://ega.ee/wp-content/uploads/2025/04/bvcer_withoutqr-iso-9001_new-1024x374.png 1024w, https://ega.ee/wp-content/uploads/2025/04/bvcer_withoutqr-iso-9001_new-768x281.png 768w"
+            data-sizes="auto"
+                alt="logo-iso-9001"
+                title="bvcer_withoutqr-iso-9001_new"        class="image__img lazyload"
+    >
+
+    
+        </figure>
+                                            </div>
+                            </div>
+                <div class="footer__row footer__bottom">
+                            
+
+<nav class="navigation navigation--clean navigation--inverted footer__secondary-navigation" aria-label="Footer 2nd menu">
+            <ul class="navigation__list">
+                            <li class="navigation__item  menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="https://ega.ee/media-centre/" class="navigation__link" target="_self">Media Centre</a>
+                                    </li>
+                            <li class="navigation__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
+                    <a href="https://ega.ee/terms-conditions/" class="navigation__link" target="_self">Terms and conditions</a>
+                                    </li>
+                            <li class="navigation__item  menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="https://ega.ee/privacy-policy/" class="navigation__link" target="_self">Privacy Policy</a>
+                                    </li>
+                                        <li class="navigation__item cky-banner-element">
+                    <a class="navigation__link" href="#cookie-settings">
+                        Cookie policy
+                    </a>
+                </li>
+                    </ul>
+    </nav>
+                                        <div class="footer__copyright"><p>2026 © All rights reserved.</p>
+</div>
+                    </div>
+    </div>
+</footer>
+    </div>
+    </div>
+<div class="notification-list"></div>
+
+            </div>
+
+            <script id="wpml-cookie-js-extra">
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"/"}};
+//# sourceURL=wpml-cookie-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-wp-strategy="defer" defer id="wpml-cookie-js" data-rocket-src="https://ega.ee/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"></script>
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/publication/supporting-regional-entrepreneurship-through-adoption-of-innovative-technologies/|/publication/adoption-innovative-technologies-in-public-services/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://ega.ee","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="webpack-jquery-js" data-rocket-src="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/js/jquery.bcc7b3cea5205055.js" data-rocket-defer defer></script>
+<script id="core-js-extra">
+var gotoAndPlay = {"ajax":{"isEnabled":false,"keptBodyClasses":[],"templateName":"single-project"},"googleMapsApiKey":"","sitePath":"https://ega.ee/","notifications":[],"version":"408","nonce":"e4161c3c3c","assetsPath":"https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/","templatePath":"https://ega.ee/wp-content/themes/e-riigi-akadeemia/","svgPath":"https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/svg/global.99683a5883899c46b305.svg","loggedIn":"","cookiePath":"/","cookieDomain":"ega.ee","datepickerLocale":{"days":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"daysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"daysMin":["Su","Mo","Tu","We","Th","Fr","Sa"],"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"today":"Today","clear":"Clear","dateFormat":"dd.MM.yyyy","timeFormat":"hh:ii aa","firstDay":1},"ajaxPath":"https://ega.ee/wp-admin/admin-ajax.php?lang=en","lang":"en"};
+//# sourceURL=core-js-extra
+</script>
+<script id="core-js" src="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/js/core.a23287a8d1d4fdcd.js" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-js" data-rocket-src="https://ega.ee/wp-content/themes/e-riigi-akadeemia/inc/theme/js/global.f0d7dc362e11abb1.js" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://ega.ee/wp-includes/js/jquery/jquery-migrate.min.js" data-rocket-defer defer></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=GT-W6KS9CKR" async></script>
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["ega.ee"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-W6KS9CKR", {"googlesitekit_post_type":"project"});
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+//# sourceURL=google_gtagjs-js-after
+</script>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/e-riigi-akadeemia/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+    </body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1784588726 -->

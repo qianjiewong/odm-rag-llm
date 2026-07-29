@@ -1,0 +1,64 @@
+﻿question_id,dimension,indicator,question,response_scoring
+I1,impact_dimension,impact_awareness,"Do you have a definition of open data reuse in your country?
+ 
+For Explanation:
+* If yes, please specify it.","{'yes': 20, 'no': 0}"
+I10,impact_dimension,impact_measuring_reuse,"Have any public bodies in your country developed any systematic way of gathering reuse cases?
+
+For Explanation:
+* If yes, please provide a brief explanation of the process: How does the gathering happen?","{'yes': 20, 'no': 0, ""i don't know"": 0}"
+I12,impact_dimension,impact_government,"Is any data on the impact created by open data on governmental challenges (e.g. efficiency, effectiveness, transparency, decision-making capacity) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.","{'yes': 20, 'no': 0, ""i don't know"": 0}"
+I17,impact_dimension,impact_social,"Is any data on the impact created by open data on social challenges (e.g. inequality, healthcare, education) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.","{'yes': 20, 'no': 0, ""i don't know"": 0}"
+I2,impact_dimension,impact_awareness,"Are there any processes in place to monitor the level of reuse of your country's open data?
+ 
+For Explanation:
+* If yes, please (1) briefly describe these processes and (2) provide the URLs to support the answer.","{'yes': 20, 'no': 0, ""i don't know"": 0}"
+I27,impact_dimension,impact_economic,"Is any data on the economic impact (e.g. GDP, employment, productivity, innovation,  new businesses created etc.) of open data available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please specify what kind of data source proves this impact and provide the URLs to this data.","{'yes': 20, 'no': 0, ""i don't know"": 0}"
+I9,impact_dimension,impact_measuring_reuse,"Have any public bodies in your country launched or performed any activities in the past year to better understand reusers' needs in order to further stimulate the reuse of open data?
+
+For Explanation:
+* If yes, which of the following activities have been performed? Please describe how the activity has helped you better stimulate reuse.
+* Multiple answers are possible.","{'yes': 40, 'no': 0, ""i don't know"": 0}"
+P1,policy_dimension,policy_framework,"Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition of the Open Data Directive?
+
+For Explanation:
+* If yes, please provide (1) the URL and (2) title of the policy document and (3) briefly describe.
+* If ‘other’, please provide (1) a brief explanation to support your answer choice and (2) provide the URL and indicate the policy section which explicitly references open data.","{'yes': 40, 'no': 0, 'other': 40}"
+P13,policy_dimension,policy_governance,"Is there a governance structure in place that enables the participation and/or inclusion of various open data stakeholders? 
+
+For Explanation:
+*  If yes, please briefly describe the governance structure and its operating model","{'yes': 40, 'no': 0}"
+P16,policy_dimension,policy_governance,"To what degree do local/regional public bodies conduct open data initiatives? 
+
+For Explanation:
+* If not applicable, please explain why.","{'all public bodies': 20, 'the majority of public bodies': 15, 'approximately half of the public bodies': 10, 'few public bodies': 5, 'none of the public bodies': 0, 'not applicable': 20}"
+P2,policy_dimension,policy_framework,"Is there a national open data strategy in your country?
+
+For Explanation:
+* If yes, please provide (1) the URL to the strategy and (2) describe the main highlights.  
+* If 'not applicable', please provide (1) a brief explanation to support your answer choice and provide (2) the URL and indicate the policy section which explicitly references objectives, actions/measures, delivery timelines etc.","{'yes': 40, 'no': 0, 'not applicable': 40}"
+P22,policy_dimension,policy_implementation,"Do data publication plans exist at public body level?
+
+For Explanation:
+* If yes, please provide the URL and briefly highlight the key aspects covered.","{'yes': 20, 'no': 0}"
+P24,policy_dimension,policy_implementation,"Are there processes to ensure that the open data policies/strategy previously mentioned are updated and revised as needed?
+
+For explanation:
+* If yes, please describe the process and any recent updates made to strategy/policy","{'yes': 20, 'no': 0}"
+P3,policy_dimension,policy_framework,"Is there an open data policy/strategy at regional or local level?
+
+For Explanation:
+* If yes, please (1) provide the URL and (2) title of the document(s) and (3) briefly describe.","{'yes': 20, 'no': 0, 'not applicable': 20}"
+P4,policy_dimension,policy_framework,"Does the national strategy/policy include an action plan with measures to be implemented in the open data field?
+
+For Explanation:
+If yes, please briefly describe the main measures described by the action plan.","{'yes': 20, 'no': 0}"

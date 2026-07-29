@@ -1,0 +1,276 @@
+country,question_id,dimension,question,response_scoring,final_answer_selected,score_suggestion,justification_generated,confidence,evidence_sufficiency
+Estonia,I1,Impact,"Do you have a definition of open data reuse in your country?
+ 
+For Explanation:
+* If yes, please specify it.","{'yes': 20, 'no': 0}",yes,20.0,"Yes, Estonia has an explicit definition and legal framework for open data reuse established primarily through the Public Information Act, which has been amended to align with the EU Directive 2019/1024 on the reuse of public sector information. 
+
+1. The Estonian Public Information Act explicitly defines conditions around the reuse of open data, including obligations for public sector bodies to make frequently updated or real-time data available for reuse in accessible formats such as APIs or bulk downloads, with a strong emphasis on minimizing obstacles to reuse (S1, S2).
+
+2. The Act promotes the release of open data particularly without conditions as a general principle, thereby formalizing what constitutes reuse and encouraging added value from such reuse to society, companies, researchers, and government transparency (S1, S2, S3).
+
+3. Further, Estonia’s data governance and digital agenda initiatives reinforce this definition by mandating that public sector bodies provide machine-readable open data and support reuse, as well as describing data reuse within their official methodologies and strategic plans (S3, S4, S6).
+
+4. The legal and strategic documents, including policy explanations and governing frameworks such as the Public Information Act and Estonia’s Digital Agenda, collectively establish a comprehensive definition and practical implementation guidelines for open data reuse.
+
+These points establish that Estonia not only supports but codifies the definition of open data reuse within formal legal and policy documents, meeting the criteria of an explicit or near-explicit national definition of the concept.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal
+(3): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(4): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download
+(5): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919",0.95,sufficient
+Estonia,I10,Impact,"Have any public bodies in your country developed any systematic way of gathering reuse cases?
+
+For Explanation:
+* If yes, please provide a brief explanation of the process: How does the gathering happen?","{'yes': 20, 'no': 0, ""i don't know"": 0}",yes,20.0,"Yes, public bodies in Estonia have developed a systematic approach to gathering and monitoring reuse cases related to open data and data governance.
+
+1. Since 2018, the Ministry of Economic Affairs and Communications (MKM) in cooperation with the Information System Authority (RIA), Statistics Estonia, and other partners has actively promoted open data and data reuse across public sector institutions. This collaboration includes activities aimed at assessing the impact of these initiatives by conducting regular surveys and mappings of the situation in public sector bodies. For instance, in late 2022 MKM conducted a targeted short mapping exercise assessing the current status of data management and open data publication in public institutions. This survey identifies key challenges such as knowledge gaps, lack of systematic data governance, and critically, a substantial share of institutions neither publishing data without access restrictions nor regularly reviewing or updating open data sets.
+
+2. These mappings explicitly address the reuse needs of data users, indicating an ongoing and structured process to collect evidence on reuse demand and practical reuse cases. The continuous monitoring and reporting demonstrate a methodical approach rather than isolated examples.
+
+3. Furthermore, the White Paper on Data and Artificial Intelligence 2024-2030 emphasizes the importance of a comprehensive data governance maturity model and assessment framework to be developed and deployed between 2024–2025 at public sector level, which will also contribute to systematically tracking data reuse impacts.
+
+Therefore, Estonia has implemented and continues to develop systematic practices for gathering reuse cases and assessing their impact, supported by official mappings, ongoing monitoring, and strategic frameworks involving multiple public bodies.
+
+## Sources
+(1): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(2): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(3): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download
+(4): eRes jätkustrateegia - A4 - v2
+https://www.e-resident.gov.ee/wp-content/uploads/2026/01/E-residentsuse-jatkustrateegia-2026-2029.pdf
+(5): (I) Tegevusjuhend
+https://www.e-resident.gov.ee/wp-content/uploads/2024/09/eestikeelne-MP-code-of-conduct_amended_2024-09.docx.pdf",95.0,sufficient
+Estonia,I12,Impact,"Is any data on the impact created by open data on governmental challenges (e.g. efficiency, effectiveness, transparency, decision-making capacity) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.","{'yes': 20, 'no': 0, ""i don't know"": 0}",yes,20.0,"Yes, Estonia provides documented evidence on the impact of open data reuse on governmental challenges. 1) Data sources include strategic documents and reports such as the ""Andmete ja tehisintellekti valge raamat 2024-2030"" (White Paper on Data and Artificial Intelligence), which discusses how open and quality data availability improves transparency, decision-making quality, cost optimization, and reduces bureaucracy in the public sector. It explains that data-driven governance allows for better understanding and faster resolution of societal issues across crucial fields such as security, health, education, environment, and economic development. 2) The data portal managed by the government and frameworks like the Data Governance Framework provide systematic approaches to data sharing and reuse within public administration, which further enable these impacts. These insights stem from methodical monitoring of data use in governance and official policy ambitions to enhance evidence-based decisions, transparency, and efficiency through open data. The cited URL to the white paper (https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf) and the Estonian data portal (https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal) offer concrete support for these impacts. Overall, systematic investigations and strategic reports quantify and illustrate the governmental benefits gained from open data reuse across Estonia’s digital governance ecosystem.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal
+(5): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download",90.0,sufficient
+Estonia,I17,Impact,"Is any data on the impact created by open data on social challenges (e.g. inequality, healthcare, education) available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please (1) specify what kind of data source proves this impact and (2) provide the URLs to this data.","{'yes': 20, 'no': 0, ""i don't know"": 0}",no,0.0,"No, based on the available evidence, there appears to be no documented or systematic data specifically quantifying the social impact of open data reuse in Estonia regarding social challenges such as inequality, healthcare, or education. While several sources describe the existence and availability of open data in Estonia and emphasize its potential benefits—such as enabling data-driven decisions, supporting research and innovation, and improving public sector service delivery—there is no explicit mention of research studies, impact assessments, or other systematic investigations that provide quantifiable results or broader effects of open data reuse on social outcomes. The reviewed documents highlight conceptual discussions, policy frameworks, future AI integration, and potential uses of open data but do not provide concrete impact evidence or references to impact evaluation reports focused on social challenges.
+
+Therefore, despite a well-developed open data environment and strategic intentions to leverage data and AI, the absence of cited impact data or evaluations in the provided evidence limits the ability to confirm any quantified social impact measurements related to open data reuse.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal
+(4): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919",90.0,sufficient
+Estonia,I2,Impact,"Are there any processes in place to monitor the level of reuse of your country's open data?
+ 
+For Explanation:
+* If yes, please (1) briefly describe these processes and (2) provide the URLs to support the answer.","{'yes': 20, 'no': 0, ""i don't know"": 0}",yes,20.0,"Yes, Estonia has processes in place to monitor the reuse of its open data. The Ministry of Economic Affairs and Communications (MKM), together with partners such as the Statistical Office and the Information System Authority (RIA), has been actively developing data management guidelines and a comprehensive data governance model aimed at improving data reuse and systematizing data quality and accessibility. This includes efforts to create a maturity assessment framework and continuous monitoring mechanisms for effective data management practices within public institutions (S1). Furthermore, the Estonian Data Portal managed by RIA supports reuse by providing open data in machine-readable formats and describes procedures for access and reuse, highlighting a structured approach to monitoring availability and reuse (S7). The Digital Agenda 2030 for Estonia emphasizes the active availability and reuse of all machine-readable open data, pointing to an explicit policy and system support for reuse monitoring (S8). These initiatives collectively demonstrate an official and systematic effort to track and promote open data reuse at the national level.
+
+## Sources
+(1): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(2): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal
+(5): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download",0.9,sufficient
+Estonia,I27,Impact,"Is any data on the economic impact (e.g. GDP, employment, productivity, innovation,  new businesses created etc.) of open data available in your country such as from research studies, impact assessments, or other systematic investigations that quantify the results or broader effects of open data being reused?
+
+For Explanation:
+* If yes, please specify what kind of data source proves this impact and provide the URLs to this data.","{'yes': 20, 'no': 0, ""i don't know"": 0}",yes,20.0,"Yes, there is evidence that data on the economic impact of open data exists in Estonia, supported by government strategy documents and analyses. 
+
+1. The 2024-2030 White Paper on Data and Artificial Intelligence by Estonia's Ministry of Economic Affairs and Communications explicitly discusses how the availability of high-quality, open datasets facilitates innovation, economic growth, productivity improvements, and market transparency. It mentions the growing market size of open data in the EU and highlights that quality data promotes better decision-making in both public and private sectors, indirectly linking open data reuse with economic outcomes. (https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf)
+
+2. Studies and strategic reviews conducted at Tallinn University of Technology analyze the impact of open data policies in Estonia, assessing governmental data governance. These include references to Estonia's e-governance leadership and the beneficial environment for ICT-related entrepreneurship, implying innovation and business creation driven by open data.
+
+3. There are initiatives like the Estonian Tax and Customs Board improving data collection and economic data services for entrepreneurs, indicating practical support for economic activities via data access (https://www.e-resident.gov.ee/blog/posts/heres-why-estonian-companies-have-high-levels-of-transparency/).
+
+While there appears to be no single quantitative economic impact report solely dedicated to open data reuse, multiple official documents and research papers highlight systemic data governance efforts focused on promoting innovation, business transparency, and productivity gains facilitated by open data.
+
+Therefore, the available evidence demonstrates systematic investigations and government-supported strategies reflecting economic impacts derived from open data reuse in Estonia.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonian companies have high levels of transparency | E-Residency
+https://www.e-resident.gov.ee/blog/posts/heres-why-estonian-companies-have-high-levels-of-transparency/",0.9,sufficient
+Estonia,I9,Impact,"Have any public bodies in your country launched or performed any activities in the past year to better understand reusers' needs in order to further stimulate the reuse of open data?
+
+For Explanation:
+* If yes, which of the following activities have been performed? Please describe how the activity has helped you better stimulate reuse.
+* Multiple answers are possible.","{'yes': 40, 'no': 0, ""i don't know"": 0}",yes,40.0,"Yes, public bodies in Estonia have conducted activities in the past year to better understand the needs of data reusers and further stimulate the reuse of open data. Key evidence includes a mapping exercise conducted by the Ministry of Economic Affairs and Communications (MKM) in late 2022, which investigated the current status of open data use within institutions. This mapping identified significant barriers such as the lack of knowledge and skills related to data management and, crucially, that 78% of data holders had not mapped the needs of data reusers (S1). Although a large portion of institutions had not yet fully engaged in understanding reusers' needs by 2023, the fact that the MKM initiated this assessment shows a concrete attempt to gather insights to improve the ecosystem and is a foundational step toward stimulating reuse.
+
+Furthermore, the strategy and policy documents underscore ongoing efforts to support reuse by developing competencies, improving data quality, documentation, and public availability of data (S1, S6). The existence of a unified Estonian Data Portal integrating multiple environments to reduce burden on data holders and provide consistent data descriptions also demonstrates institutional effort to better serve reusers (S7).
+
+While some data holders have yet to fully implement regular assessments of user needs, the government shows proactive engagement through these surveys and mapping activities. These efforts contribute to more targeted support, capacity building, and the creation of a data-friendly environment conducive to growing reuse in the public and private sectors.
+
+## Sources
+(1): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(2): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download
+(5): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal",90.0,sufficient
+Estonia,P1,Policy,"Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition of the Open Data Directive?
+
+For Explanation:
+* If yes, please provide (1) the URL and (2) title of the policy document and (3) briefly describe.
+* If ‘other’, please provide (1) a brief explanation to support your answer choice and (2) provide the URL and indicate the policy section which explicitly references open data.","{'yes': 40, 'no': 0, 'other': 40}",yes,40.0,"Yes, Estonia has a national open data policy framework aligned with EU requirements, including the transposition of the Open Data Directive. 1) Legal and strategic basis: The Estonian Public Information Act mandates public sector bodies to provide access to open data, ideally in machine-readable and open formats. This act serves as the legal foundation for open data in Estonia, consistent with the European Union directive on open data and public sector information reuse. 2) Governance and operational framework: The Estonian Data Portal (https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal) is the central platform for publishing and accessing open data, illustrating structured national implementation. The portal enforces data publication standards, including metadata and dataset descriptions, facilitating transparency and reuse. 3) Policy documentation: While a specific single named national open data policy document URL is not explicitly provided in the evidence, Estonia’s Digital Agenda 2030 and related national strategies underscore the government’s commitment to open data with clear goals on data sharing and reuse. These policies incorporate EU directives, ensuring legal compliance and practical deployment. Therefore, Estonia not only possesses a national open data policy but also incorporates the EU Open Data Directive through national legislation and operational measures.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download
+(5): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal",95.0,sufficient
+Estonia,P13,Policy,"Is there a governance structure in place that enables the participation and/or inclusion of various open data stakeholders? 
+
+For Explanation:
+*  If yes, please briefly describe the governance structure and its operating model","{'yes': 40, 'no': 0}",yes,40.0,"Yes, Estonia has governance structures in place that enable the participation and inclusion of various open data stakeholders.  
+
+1. Legal and strategic basis: The obligation for Estonian agencies to publish open data is derived both from the EU Directive 2019/1024 and Estonia's Public Information Act, which provide a legal framework ensuring transparency and data publication by the public sector (S1).
+
+2. Governance and operational mechanisms: Even though current open data policies are somewhat fragmented, there is recognition of the need for a coherent system that supports cooperation between government agencies in open data exchange. The state promotes open data platforms designed to allow users—such as citizens, businesses, researchers, and media—to access, reuse, and provide feedback on data, fostering both transparency and innovation (S1, S7).
+
+3. Stakeholder inclusion and participation: The government's approach includes mechanisms that facilitate the involvement of diverse stakeholders in the open data ecosystem, ranging from public sector bodies releasing data to citizens using transparent applications to understand state functions. Estonian strategies also emphasize citizen-centric data management concepts, promoting informed data sharing and transparent decision-making, which indirectly supports public participation and stakeholder inclusion (S2, S4).
+
+4. Coordination and responsible bodies: The Estonian Data Portal managed by the State Information System Authority (RIA) exemplifies a structured platform enabling coordinated open data dissemination, underpinned by responsible institutional governance and alignment with EU directives (S7).
+
+While internal coordination could be improved, these legal, strategic, and operational elements collectively establish a governance structure that includes multiple open data stakeholders through legal mandates, institutional frameworks, and platform mechanisms supporting transparency and participation.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal
+(5): Avaleht | Rahandusministeerium
+https://fin.ee/",90.0,sufficient
+Estonia,P16,Policy,"To what degree do local/regional public bodies conduct open data initiatives? 
+
+For Explanation:
+* If not applicable, please explain why.","{'all public bodies': 20, 'the majority of public bodies': 15, 'approximately half of the public bodies': 10, 'few public bodies': 5, 'none of the public bodies': 0, 'not applicable': 20}",the majority of public bodies,15.0,"Yes, the majority of local and regional public bodies in Estonia conduct open data initiatives. This is supported by Estonia's established national framework that mandates public sector bodies to provide open data access according to the Public Information Act and related guidelines. The Estonian data portal, managed by the Information System Authority, serves as a centralized platform where public bodies publish open datasets and dataset descriptions, indicating widespread compliance across multiple government levels. While there is acknowledgement of some variability in data quality and adoption of data governance practices among public sector organizations, the prevailing implementation covers a broad range of entities beyond just a few. The legal basis through the Public Information Act and adherence requirements, combined with the operational support via the data portal and associated standards, confirm that open data initiatives extend to most public bodies at local and regional levels, although likely not to every single one. Evidence does not support the claim that all public bodies are uniformly active, but clearly surpasses the categories of 'approximately half' or 'few'. Thus, the best supported official response is 'the majority of public bodies'.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal",85.0,partial
+Estonia,P2,Policy,"Is there a national open data strategy in your country?
+
+For Explanation:
+* If yes, please provide (1) the URL to the strategy and (2) describe the main highlights.  
+* If 'not applicable', please provide (1) a brief explanation to support your answer choice and provide (2) the URL and indicate the policy section which explicitly references objectives, actions/measures, delivery timelines etc.","{'yes': 40, 'no': 0, 'not applicable': 40}",yes,40.0,"Yes, Estonia has a national open data strategy that is embedded within its broader digital governance and data reuse frameworks, supported by national legislation and strategic planning documents. 1. Legal and strategic basis: The obligation for Estonian agencies to publish open data stems from both the EU Directive 2019/1024 on open data and the Estonian Public Information Act, creating a binding national framework for open data publication. 2. Strategy and policy context: While a standalone open data strategy document explicitly entitled ""national open data strategy"" is not directly cited, multiple authoritative sources confirm that Estonia pursues coherent guidelines and frameworks for open data disclosure, with planned harmonization efforts at both national and EU levels (Sources [S1], [S2]). The strategic approach emphasizes transparency, innovation, economic growth, and democratic governance enabled through open data. 3. Operationalization and governance: The Estonian State Information System and Data Portal (Source [S8]) provide practical implementation by facilitating data access, promoting data-driven decisions, and supporting reuse in research, media, business, and public administration. The government's digital agenda and plans for future-proof digital government platforms further reflect an integrated strategy for leveraging data and open information (Source [S7]). 4. Forward-looking integration: Estonia’s plans for 2030 in data and AI development strategies (Sources [S4], [S6]) indicate a comprehensive framework supporting open and trustworthy data ecosystems, despite current fragmentation acknowledged in academic policy analyses (Sources [S1], [S2]). Therefore, the available evidence indicates Estonia does have a national-level strategic framework and policy underpinning open data, aligned with EU requirements and supported by actionable measures and infrastructure, meeting the criteria for a national open data strategy.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(3): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(4): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download
+(5): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal",90.0,sufficient
+Estonia,P22,Policy,"Do data publication plans exist at public body level?
+
+For Explanation:
+* If yes, please provide the URL and briefly highlight the key aspects covered.","{'yes': 20, 'no': 0}",no,0.0,"No, Estonia does not currently have data publication plans established at the public body level. The evidence indicates that although there are various open data policies and regulations in place across different levels of government, there is no clear or systematic strategy concerning what data should be published by public bodies or how it should be published. Specifically, the documents highlight that states, including Estonia, lack a proper framework or structured plans for dataset release or publication obligations at the organizational level. Research points out the absence of detailed open data publication plans, aiming at a coordinated approach for dataset release planning within public bodies. Furthermore, strategic documents such as Estonia’s Digital Agenda 2030 emphasize developing legal frameworks, competencies, and governance related to data science and analytics but do not specify existence of concrete publication plans per public body. Thus, while there is ongoing development in data governance and open data policy, explicit, operational data publication plans at the public body level have not been established or documented yet.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download
+(5): Avaleht | Eesti Vabariigi Valitsus
+http://gov.ee/",95.0,sufficient
+Estonia,P24,Policy,"Are there processes to ensure that the open data policies/strategy previously mentioned are updated and revised as needed?
+
+For explanation:
+* If yes, please describe the process and any recent updates made to strategy/policy","{'yes': 20, 'no': 0}",yes,20.0,"Yes, Estonia has processes to ensure that open data policies and strategies are updated and revised as needed. 1. Strategic planning documents such as the ""Andmete ja tehisintellekti valge raamat 2024-2030"" outline a forward-looking approach focusing on the regular updating of data and open data practices, aligned with changing needs of data owners and users as well as international best practices. This indicates a formal and ongoing revision mechanism to keep policy relevant. 2. The strategy foresees development activities during 2024–2025, including the creation of additional guidelines and translation/adoption of controlled vocabularies and licensing terms for the public sector, which are concrete steps toward refreshing and improving the open data framework. 3. The Estonian Data Portal manages data descriptions and their harmonisation and is expected to evolve with legislative changes by 2026, showing active policy and operational updates governed by the State Information System. 4. The obligation for Estonian agencies to publish open data is underpinned both by EU Directive 2019/1024 and the national Public Information Act, establishing a robust legal foundation that necessitates ongoing alignment and updates with EU and national legislative frameworks. These elements collectively indicate structured review and update processes for open data policies and strategies in Estonia.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(3): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(4): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal",90.0,sufficient
+Estonia,P3,Policy,"Is there an open data policy/strategy at regional or local level?
+
+For Explanation:
+* If yes, please (1) provide the URL and (2) title of the document(s) and (3) briefly describe.","{'yes': 20, 'no': 0, 'not applicable': 20}",no,0.0,"No evidence was found in the provided documents to indicate that Estonia has an open data policy or strategy at the regional or local level. The available information primarily references national level initiatives, general considerations about data governance, and the Estonian national open data portal. There is mention of fragmented national open data policies without a centralized or harmonized system. None of the evidence explicitly discusses or presents dedicated open data policies or strategies specific to regional, municipal, or city governments in Estonia. Therefore, the conclusion is that while Estonia has national open data efforts, there is no documented regional or local open data policy or strategy reported in the evidence provided.
+
+## Sources
+(1): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(2): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(3): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(4): Estonian data portal | RIA
+https://www.ria.ee/en/state-information-system/data-based-governance-and-reuse-data/estonian-data-portal",90.0,sufficient
+Estonia,P4,Policy,"Does the national strategy/policy include an action plan with measures to be implemented in the open data field?
+
+For Explanation:
+If yes, please briefly describe the main measures described by the action plan.","{'yes': 20, 'no': 0}",yes,20.0,"Yes, Estonia’s national strategy in the open data field includes an action plan with concrete implementation measures. This is primarily detailed in the ""Andmete ja tehisintellekti valge raamat 2024-2030"" (Data and Artificial Intelligence White Paper 2024-2030), which sets out strategic goals and an action plan aligned with broader national strategies like “Eesti 2035” and the ""Eesti digiühiskond 2030"" development plan. Key measures include creating sector-specific responsibilities for data and AI governance by 2025 (notably at the ministry level), establishing a data and AI competence center, and supporting systematic approaches to data usage and AI adoption in the public sector. Additionally, related documents and initiatives describe the development of data governance frameworks, guidelines, and steering groups that coordinate multi-institution cooperation, ensuring operational support for the implementation of open data policies. The ""Estonia’s Digital Agenda 2030"" also outlines concrete steps to develop legal frameworks, competencies, governance practices, and interinstitutional data centers which directly support open data objectives. Together, these elements form a well-structured roadmap with clearly articulated milestones and governance structures to ensure effective delivery of open data policy objectives.
+
+## Sources
+(1): Andmete ja tehisintellekti valge raamat 2024-2030
+https://mkm.ee/sites/default/files/documents/2024-02/Tehisintellekti%20ja%20andmete%20valge%20raamat%202024-2030.pdf
+(2): Untitled source
+https://digikogu.taltech.ee/et/Download/86f50514-87ff-4fb1-9c79-f38c67acb919
+(3): MANAGEMENT STRATEGY?
+https://digikogu.taltech.ee/et/Download/da54b67d-17e9-4df0-b5d4-1fff8d77d515
+(4): Estonia’s Digital Agenda
+https://mkm.ee/media/6970/download",95.0,sufficient
