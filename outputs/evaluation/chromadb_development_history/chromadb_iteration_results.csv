@@ -1,0 +1,6 @@
+system_version,source_summary_file,exact_response_match,normalized_response_match,mean_absolute_score_difference,minilm_cosine_similarity,sbert_cosine_similarity
+Initial ChromaDB,iteration_1_initial_chromadb.csv,0.7,0.7,6.388889,0.628271,0.683824
+Candidate expansion and reranking,iteration_2_candidate_expansion_reranking.csv,0.711111,0.711111,5.5,0.644528,0.699407
+Stronger retrieval version,iteration_3_stronger_retrieval.csv,0.755556,0.755556,4.277778,0.650653,0.695262
+Later refined version,iteration_4_later_refined.csv,0.777778,0.777778,4.166667,0.652409,0.697717
+Final version,iteration_5_final.csv,0.766667,0.766667,4.222222,0.652255,0.701199

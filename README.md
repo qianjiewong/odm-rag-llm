@@ -48,12 +48,6 @@ I verify that I am the sole author of the programs contained in this archive, ex
 |---|---|
 | `step8_embed_chunks.py`, `step9_retrieve_topk.py`, `step10_generate_answers.py`, `step11_evaluate.py` | Earlier NumPy/pickle-based retrieval architecture, superseded by the ChromaDB pipeline. Retained because Section 6.3 of the report directly compares this baseline against the final ChromaDB-backed system. Not used by the live UI. |
 
-### `src/experiments/` *(if reorganised)*
-
-| File | Purpose |
-|---|---|
-| `step10_generate_answers_no_rag.py`, `step11_evaluate_no_rag.py` | Earlier RAG-vs-non-RAG ablation, generating answers without retrieved evidence for comparison purposes. |
-
 ### `src/debug/` *(if reorganised)*
 
 | File | Purpose |
