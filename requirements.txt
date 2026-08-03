@@ -16,4 +16,5 @@ chromadb
 openai
 supabase
 reportlab
+pytest
  

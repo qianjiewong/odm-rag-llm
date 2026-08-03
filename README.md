@@ -65,6 +65,20 @@ I verify that I am the sole author of the programs contained in this archive, ex
 | `export_utils.py` | PDF export of results |
 | `country_flags.py` | Country flag display helper |
 
+### `src/tests/` — automated test suites
+
+| File | Purpose |
+|---|---|
+| `test_pipeline_logic.py` | Unit tests for chunking, ground-truth score inference, response canonicalisation, and evaluation metrics (18 tests) |
+| `test_retrieval_reranking.py` | Unit tests for benchmark-leakage blocking, official-source weighting, question-aware reranking, low-value penalties, source diversification, and the Belgium-targeted refinement (27 tests) |
+| `test_api_mocked.py` | Mocked tests for query generation and answer generation using `unittest.mock`, verifying prompt construction and fallback behaviour without live API calls (8 tests) |
+
+Run the full suite with:
+```bash
+python -m pytest src/tests/ -v
+```
+53 tests total, all passing.
+
 ## Notes on architecture
 
 The final system uses ChromaDB as the persistent vector database. An earlier NumPy/pickle-based implementation is retained under `legacy_baseline/` purely to support the architecture-comparison discussion in Section 6.3 of the report; it is not part of the final system and is not used by the live demo.
