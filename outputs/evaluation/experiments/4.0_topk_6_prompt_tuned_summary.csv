@@ -1,0 +1,2 @@
+﻿scope,num_questions,avg_response_match,avg_response_match_normalized,avg_score_difference,avg_score_abs_difference,avg_cosine_similarity_minilm,avg_cosine_similarity_sbert,avg_tfidf_similarity,avg_jaccard_similarity,avg_bleu_score,avg_rouge_l_f1,avg_confidence
+overall,90,0.3333333333333333,0.6333333333333333,-4.277777777777778,7.388888888888889,0.6342700516305319,0.6896279694103613,0.38500403692258756,0.11410575262015298,0.021284620178927034,0.14130133520970214,39.243888888888875

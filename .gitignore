@@ -3,9 +3,10 @@ __pycache__/
 .env
 .streamlit/secrets.toml
 data/interim/
-outputs/
+data/raw/methodology/
+debug_estonia_rerun/
+*.db
 .DS_Store
 *.egg-info/
 venv/
 .venv/
- 
