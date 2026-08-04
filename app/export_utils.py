@@ -1,8 +1,31 @@
 from io import BytesIO
+from pathlib import Path
+
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import mm
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+
+# ReportLab's built-in base-14 fonts (Helvetica, Times-Roman, ...) only cover
+# a Latin-1-like subset and silently render unsupported glyphs as boxes.
+# Evidence and justifications in this project can include non-English
+# characters (e.g. Latvian diacritics, Bulgarian Cyrillic), so a Unicode
+# TrueType font is registered here and used for every style below instead.
+FONTS_DIR = Path(__file__).resolve().parent / "fonts"
+UNICODE_FONT = "DejaVuSans"
+UNICODE_FONT_BOLD = "DejaVuSans-Bold"
+
+pdfmetrics.registerFont(TTFont(UNICODE_FONT, str(FONTS_DIR / "DejaVuSans.ttf")))
+pdfmetrics.registerFont(TTFont(UNICODE_FONT_BOLD, str(FONTS_DIR / "DejaVuSans-Bold.ttf")))
+pdfmetrics.registerFontFamily(
+    UNICODE_FONT,
+    normal=UNICODE_FONT,
+    bold=UNICODE_FONT_BOLD,
+    italic=UNICODE_FONT,
+    boldItalic=UNICODE_FONT_BOLD,
+)
 
 
 def safe_text(value) -> str:
@@ -32,10 +55,18 @@ def build_result_pdf_bytes(result: dict) -> bytes:
     )
 
     styles = getSampleStyleSheet()
+
+    # Built-in styles default to Helvetica/Times, which don't cover the
+    # non-English characters this project's evidence can contain. Repoint
+    # every style used below at the registered Unicode font.
+    for style_name in ("Title", "Heading2", "BodyText"):
+        styles[style_name].fontName = UNICODE_FONT
+
     styles.add(
         ParagraphStyle(
             name="SmallBody",
             parent=styles["BodyText"],
+            fontName=UNICODE_FONT,
             fontSize=10,
             leading=14,
             spaceAfter=6,
