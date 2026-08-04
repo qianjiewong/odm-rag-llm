@@ -81,4 +81,6 @@ python -m pytest src/tests/ -v
 
 ## Notes on architecture
 
-The final system uses ChromaDB as the persistent vector database. An earlier NumPy/pickle-based implementation is retained under `legacy_baseline/` purely to support the architecture-comparison discussion in Section 6.3 of the report; it is not part of the final system and is not used by the live demo.
+The final ChromaDB-backed pipeline replaces an earlier NumPy/pickle-based implementation, retained under `legacy_baseline/` purely to support the architecture-comparison discussion in Section 6.3 of the report; it is not part of the final system and is not used by the live demo.
+
+ChromaDB is used in two distinct ways. The evaluation pipeline (`step8_embed_chunks_chroma.py`) writes to a disk-backed, persistent ChromaDB collection under `data/interim/chroma_db/`, built once and reused to reproduce the reported benchmark results. The live Streamlit demo (`pipeline_runner.py`) never reads or writes that collection; instead, each live query builds a separate, throwaway, in-memory ChromaDB collection scoped to that single request, consistent with Section 4.5.8 of the report.
