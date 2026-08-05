@@ -17,4 +17,5 @@ openai
 supabase
 reportlab
 pytest
+starlette<1.4.0
  
