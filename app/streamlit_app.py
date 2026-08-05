@@ -13,8 +13,11 @@ import streamlit as st
 # before any pipeline module is imported. Locally, st.secrets is simply
 # empty and this loop does nothing — .env file continues to work
 # exactly as before via python-dotenv.
-for _key, _value in st.secrets.items():
-    os.environ.setdefault(_key, str(_value))
+try:
+    for _key, _value in st.secrets.items():
+        os.environ.setdefault(_key, str(_value))
+except Exception:
+    pass
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SRC_DIR = BASE_DIR / "src"
