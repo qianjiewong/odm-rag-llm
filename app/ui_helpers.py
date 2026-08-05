@@ -291,11 +291,11 @@ def render_app_banner():
 def render_result_header(result: dict):
     answer = friendly_answer_text(result)
     score_val = format_score_display(result)
-    confidence_val = format_confidence_100(result.get("confidence", None))
+    # confidence_val = format_confidence_100(result.get("confidence", None))
     source_count = len(result.get("retrieved_sources", []) or [])
 
     html = f"""
-    <div class="summary-grid" style="grid-template-columns: repeat(4, minmax(0, 1fr));">
+    <div class="summary-grid" style="grid-template-columns: repeat(3, minmax(0, 1fr));">
         <div class="summary-card">
             <div class="summary-label">Answer</div>
             <div class="summary-value">{answer}</div>
@@ -303,10 +303,6 @@ def render_result_header(result: dict):
         <div class="summary-card">
             <div class="summary-label">Question Score</div>
             <div class="summary-value">{score_val}</div>
-        </div>
-        <div class="summary-card">
-            <div class="summary-label">LLM Confidence</div>
-            <div class="summary-value">{confidence_val}</div>
         </div>
         <div class="summary-card">
             <div class="summary-label">Total Sources</div>
