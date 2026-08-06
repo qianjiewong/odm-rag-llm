@@ -89,3 +89,14 @@ ChromaDB is used in two distinct ways. The evaluation pipeline (`step8_embed_chu
 ## Note on excluded directories
 
 This archive does not include `data/interim/`. This directory holds intermediate pipeline artifacts — most significantly the persistent ChromaDB evidence corpus (`data/interim/chroma_db/`) built during evidence acquisition (for evaluation purposes) — which is excluded because it is large, machine-generated, and fully reproducible from source. Running the pipeline stages listed under "How to run" above regenerates it from scratch; nothing in this folder is hand-authored or required to review the source code itself.
+
+## Pre-built evidence corpus (optional)
+
+`data/interim/` is excluded from this repository (see "Note on excluded
+directories" above) because it is large and fully regenerable. For convenience,
+a pre-built copy is available here: [Google Drive link: https://drive.google.com/file/d/1LsTMGSIoQGb5fe1yl5jUQcaK4pQbpmSK/view?usp=drive_link]. To use it, download
+and extract the zip so its contents sit at `data/interim/` in your local clone,
+then skip directly to `step9_retrieve_topk_chroma` and run through
+`step12_combine_evaluation_summaries` to view the evaluation results — steps
+4–8 (web search through embedding) are the most time-consuming part of the
+pipeline and are already baked into the pre-built corpus.
