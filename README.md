@@ -7,7 +7,7 @@ I verify that I am the sole author of the programs contained in this archive, ex
 ## How to run
 
 1. `pip install -r requirements.txt`
-2. Create a `.env` file in `src/` with:
+2. Create a `.env` file in the **project root** (the same folder as `requirements.txt`, alongside `app/` and `src/`) with:
    ```
    OPENAI_API_KEY=...
    OPENAI_MODEL=...
@@ -42,13 +42,13 @@ I verify that I am the sole author of the programs contained in this archive, ex
 | `step12_combine_evaluation_summaries.py` | Aggregates per-country/per-dimension summaries |
 | `pipeline_runner.py` | Orchestrates the full pipeline for a single live query; used by the Streamlit app |
 
-### `src/legacy_baseline/` *(if reorganised — see note below)*
+### `src/legacy_baseline/`
 
 | File | Purpose |
 |---|---|
 | `step8_embed_chunks.py`, `step9_retrieve_topk.py`, `step10_generate_answers.py`, `step11_evaluate.py` | Earlier NumPy/pickle-based retrieval architecture, superseded by the ChromaDB pipeline. Retained because Section 6.3 of the report directly compares this baseline against the final ChromaDB-backed system. Not used by the live UI. |
 
-### `src/debug/` *(if reorganised)*
+### `src/` — debug utilities
 
 | File | Purpose |
 |---|---|
@@ -61,6 +61,7 @@ I verify that I am the sole author of the programs contained in this archive, ex
 |---|---|
 | `streamlit_app.py` | Main UI: country/question selection, run pipeline, display results |
 | `db.py` | Supabase persistence for saved runs and search history |
+| `db_sqlite_backup.py` | Local SQLite fallback persistence, mirroring `db.py`, used when Supabase is unavailable |
 | `ui_helpers.py` | Formatting helpers (timestamps, source display, etc.) |
 | `export_utils.py` | PDF export of results |
 | `country_flags.py` | Country flag display helper |
@@ -84,3 +85,7 @@ python -m pytest src/tests/ -v
 The final ChromaDB-backed pipeline replaces an earlier NumPy/pickle-based implementation, retained under `legacy_baseline/` purely to support the architecture-comparison discussion in Section 6.3 of the report; it is not part of the final system and is not used by the live demo.
 
 ChromaDB is used in two distinct ways. The evaluation pipeline (`step8_embed_chunks_chroma.py`) writes to a disk-backed, persistent ChromaDB collection under `data/interim/chroma_db/`, built once and reused to reproduce the reported benchmark results. The live Streamlit demo (`pipeline_runner.py`) never reads or writes that collection; instead, each live query builds a separate, throwaway, in-memory ChromaDB collection scoped to that single request, consistent with Section 4.5.8 of the report.
+
+## Note on excluded directories
+
+This archive does not include `data/interim/`. This directory holds intermediate pipeline artifacts — most significantly the persistent ChromaDB evidence corpus (`data/interim/chroma_db/`) built during evidence acquisition (for evaluation purposes) — which is excluded because it is large, machine-generated, and fully reproducible from source. Running the pipeline stages listed under "How to run" above regenerates it from scratch; nothing in this folder is hand-authored or required to review the source code itself.
